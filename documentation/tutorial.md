@@ -70,14 +70,12 @@ More options can be added to the pipeline to perform a more personalized search.
 
 **Mandatory arguments**
 
-|                     |                                  |
 |---------------------|----------------------------------|
 | `-p` or `--project` | Indicate the name of the project |
 | `-t` or `--tax-id`  | Indicate the TaxID               |
 
 **Optional arguments**
-
-|                                                       |                                                                                                                                                                                                                                                                         |
+                                                                                                                                                                                                                                                             |
 |-----------------------------|------------------------------------------|
 | `-g` or `--genes`                                     | Indicate a path to a text file containing a list of genes (one per row) and focus the search to only the proteins that come from those genes.                                                                                                                           |
 | `--path`                                              | Indicate a path to the output folder. If this argument is not indicated, the result folder will be in the current working directory.                                                                                                                                    |
