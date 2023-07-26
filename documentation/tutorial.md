@@ -78,7 +78,7 @@ More options can be added to the pipeline to perform a more personalized search.
 **Optional arguments**
 
 | Command                                               | Description                                                                                                                                                                                                                                                                                                      |
-|----------------|--------------------------------------------------------|
+|-------------------------------------------------------|--------------------------------------------------------|
 | `-g` or `--genes`                                     | Indicate a path to a text file containing a list of genes (one per row) and focus the search to only the proteins that come from those genes.                                                                                                                                                                    |
 | `--path`                                              | Indicate a path to the output folder. If this argument is not indicated, the result folder will be in the current working directory.                                                                                                                                                                             |
 | `--remove-duplicates` \| `--no-remove-duplicates`     | Specify if the duplicate records are removed during the post-processing module. By default, the duplicates will be removed even if `--remove-duplicates` is not specified. This option is designed to simplify the database and reduce computational cost during protein identification.                         |
