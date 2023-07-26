@@ -26,4 +26,4 @@ The details of the code and output files are explained in the [**Code Overview**
 
 ## License
 
-This pipeline is the result of many collective work, so its citation in any study in which it is used would be appreciated. Every user is free to change any section of the code so it can be adjusted to individual necessities, if you do so, please indicate it in your manuscripts writing the changes to avoid confusion. For more information, reed the [**License**](documentation/LICENSE.txt)
+This pipeline is the result of many collective work, so its citation in any study in which it is used would be appreciated. Every user is free to change any section of the code so it can be adjusted to individual necessities, if you do so, please indicate it in your manuscripts writing the changes to avoid confusion. For more information, reed the [**License**](./LICENSE)
