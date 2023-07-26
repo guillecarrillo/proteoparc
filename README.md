@@ -2,7 +2,7 @@
 
 **Version 1.0**
 
-![](images/PROTEOPARC_logo.png){width="2958"}
+![](images/PROTEOPARC_logo.png)
 
 ## What is this?
 
