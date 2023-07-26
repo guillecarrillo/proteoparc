@@ -1,0 +1,26 @@
+## METADATA for the database './proboscidea_enamelome/proboscidea_enamelome_database.fasta'
+23/07/2023 - 11:11:15
+
+# WARNINGS
+1 genes not found
+
+# Stats about the protein records
+records: 54
+records_with_gene: 54/54
+records_with_taxname: 54/54
+records_with_taxid: 54/54
+all_records_path: ./proboscidea_enamelome/metadata/records_info.csv
+
+# Stats about the employed databases
+databases_employed: 3
+databases_employed_path: ./proboscidea_enamelome/metadata/databases_employed.csv
+
+# Stats about the genes found
+genes_retrieved: 14/15
+genes_retrieved_path: ./proboscidea_enamelome/metadata/genes_retrieved.csv
+genes_not_retrieved_path: ./proboscidea_enamelome/metadata/genes_NOT_retrieved.txt
+
+# Stats about the species in the database
+species_retrieved: 4
+species_retrieved_path: ./proboscidea_enamelome/metadata/species_retrieved.csv
+species_and_genes_path: ./proboscidea_enamelome/metadata/species_genes.csv

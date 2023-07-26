@@ -1,0 +1,30 @@
+name: proteoparc
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2023.05.30
+  - libcxx=14.0.6
+  - libffi=3.4.4
+  - ncurses=6.4
+  - openssl=3.0.9
+  - pip=23.1.2
+  - python=3.9.16
+  - readline=8.2
+  - setuptools=67.8.0
+  - sqlite=3.41.2
+  - tk=8.6.12
+  - wheel=0.38.4
+  - xz=5.4.2
+  - zlib=1.2.13
+  - pip:
+      - certifi==2023.5.7
+      - charset-normalizer==3.1.0
+      - idna==3.4
+      - numpy==1.25.0
+      - pandas==2.0.3
+      - python-dateutil==2.8.2
+      - pytz==2023.3
+      - requests==2.31.0
+      - six==1.16.0
+      - tzdata==2023.3
+      - urllib3==2.0.3

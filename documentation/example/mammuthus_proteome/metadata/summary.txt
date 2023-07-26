@@ -1,0 +1,25 @@
+## METADATA for the database './mammuthus_proteome/mammuthus_proteome_database.fasta'
+26/07/2023 - 11:52:04
+
+# WARNINGS
+Check gene names (GN=)
+
+# Stats about the protein records
+records: 1188
+records_with_gene: 1160/1188
+records_with_taxname: 1188/1188
+records_with_taxid: 1188/1188
+all_records_path: ./mammuthus_proteome/metadata/records_info.csv
+
+# Stats about the employed databases
+databases_employed: 4
+databases_employed_path: ./mammuthus_proteome/metadata/databases_employed.csv
+
+# Stats about the genes found
+genes_retrieved: 25
+genes_retrieved_path: ./mammuthus_proteome/metadata/genes_retrieved.csv
+
+# Stats about the species in the database
+species_retrieved: 7
+species_retrieved_path: ./mammuthus_proteome/metadata/species_retrieved.csv
+species_and_genes_path: ./mammuthus_proteome/metadata/species_genes.csv
