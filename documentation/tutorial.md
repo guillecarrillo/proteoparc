@@ -89,7 +89,7 @@ Remember, you can check easily all the pipeline options typing `python3 proteopa
 
 ## Output example
 
-In the documentation/example folder you can find two database examples with different parameters:
+In the documentation/example folder you can find two database examples with different parameters. This examples where done in July 2023, so future performances can change the output due to a UniParc update.
 
 1.  **Quick download**. A protein search focused on enamel Proboscidea (elephants) proteins. The gene list used contained 15 enamel gene names.
 
