@@ -70,13 +70,15 @@ More options can be added to the pipeline to perform a more personalized search.
 
 **Mandatory arguments**
 
+| Command             | Description                      |
 |---------------------|----------------------------------|
 | `-p` or `--project` | Indicate the name of the project |
 | `-t` or `--tax-id`  | Indicate the TaxID               |
 
 **Optional arguments**
-                                                                                                                                                                                                                                                             |
-|-----------------------------|------------------------------------------|
+
+| Command                                               | Description                                                                                                                                                                                                                                                             |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `-g` or `--genes`                                     | Indicate a path to a text file containing a list of genes (one per row) and focus the search to only the proteins that come from those genes.                                                                                                                           |
 | `--path`                                              | Indicate a path to the output folder. If this argument is not indicated, the result folder will be in the current working directory.                                                                                                                                    |
 | `--remove-duplicates` \| `--no-remove-duplicates`     | Specify if the duplicate records are removed during the post-processing module. By default, the duplicates will be removed under `--remove-duplicates`. This option is designed to simplify the database and reduce computational cost during protein identification.   |
