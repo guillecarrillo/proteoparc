@@ -1,5 +1,5 @@
 ## METADATA for the database './proboscidea_enamelome/proboscidea_enamelome_database.fasta'
-23/07/2023 - 11:11:15
+27/07/2023 - 16:52:08
 
 # WARNINGS
 1 genes not found

@@ -1,29 +1,4 @@
 Species,TaxID,Gene,Count
-Mammuthus,37348,IRBP,1
-Mammuthus,37348,A2AB,1
-Mammuthus,37348,ND4L,1
-Mammuthus,37348,VWF,0
-Mammuthus,37348,MT,0
-Mammuthus,37348,ND1,0
-Mammuthus,37348,ND2,0
-Mammuthus,37348,ND5,0
-Mammuthus,37348,LEPR,0
-Mammuthus,37348,MC1R,0
-Mammuthus,37348,ND3,0
-Mammuthus,37348,CYT,0
-Mammuthus,37348,COX1,0
-Mammuthus,37348,COX3,0
-Mammuthus,37348,CYTB,0
-Mammuthus,37348,ND6,0
-Mammuthus,37348,COX2,0
-Mammuthus,37348,ATP8,0
-Mammuthus,37348,ND4,0
-Mammuthus,37348,ATP6,0
-Mammuthus,37348,FGF5,0
-Mammuthus,37348,HBA,0
-Mammuthus,37348,D,0
-Mammuthus,37348,MB,0
-Mammuthus,37348,MAPR,0
 Mammuthus columbi,1027716,ND5,7
 Mammuthus columbi,1027716,ND2,6
 Mammuthus columbi,1027716,ND3,5
@@ -41,6 +16,7 @@ Mammuthus columbi,1027716,IRBP,0
 Mammuthus columbi,1027716,A2AB,0
 Mammuthus columbi,1027716,VWF,0
 Mammuthus columbi,1027716,MT,0
+Mammuthus columbi,1027716,CYTOCHROME,0
 Mammuthus columbi,1027716,LEPR,0
 Mammuthus columbi,1027716,MC1R,0
 Mammuthus columbi,1027716,CYT,0
@@ -66,6 +42,7 @@ Mammuthus exilis,1851653,IRBP,0
 Mammuthus exilis,1851653,A2AB,0
 Mammuthus exilis,1851653,VWF,0
 Mammuthus exilis,1851653,MT,0
+Mammuthus exilis,1851653,CYTOCHROME,0
 Mammuthus exilis,1851653,LEPR,0
 Mammuthus exilis,1851653,MC1R,0
 Mammuthus exilis,1851653,CYT,0
@@ -84,6 +61,7 @@ Mammuthus jeffersonii,1851652,IRBP,0
 Mammuthus jeffersonii,1851652,A2AB,0
 Mammuthus jeffersonii,1851652,VWF,0
 Mammuthus jeffersonii,1851652,MT,0
+Mammuthus jeffersonii,1851652,CYTOCHROME,0
 Mammuthus jeffersonii,1851652,ND1,0
 Mammuthus jeffersonii,1851652,ND2,0
 Mammuthus jeffersonii,1851652,LEPR,0
@@ -99,7 +77,7 @@ Mammuthus jeffersonii,1851652,HBA,0
 Mammuthus jeffersonii,1851652,D,0
 Mammuthus jeffersonii,1851652,MB,0
 Mammuthus jeffersonii,1851652,MAPR,0
-Mammuthus primigenius,37349,CYTB,90
+Mammuthus primigenius,37349,CYTB,91
 Mammuthus primigenius,37349,ND5,78
 Mammuthus primigenius,37349,ND4,71
 Mammuthus primigenius,37349,ND2,70
@@ -107,7 +85,7 @@ Mammuthus primigenius,37349,ATP6,69
 Mammuthus primigenius,37349,COX1,65
 Mammuthus primigenius,37349,ND1,62
 Mammuthus primigenius,37349,COX3,62
-Mammuthus primigenius,37349,COX2,60
+Mammuthus primigenius,37349,COX2,61
 Mammuthus primigenius,37349,ND6,55
 Mammuthus primigenius,37349,ND3,49
 Mammuthus primigenius,37349,ND4L,35
@@ -115,15 +93,16 @@ Mammuthus primigenius,37349,ATP8,22
 Mammuthus primigenius,37349,MT,12
 Mammuthus primigenius,37349,MAPR,9
 Mammuthus primigenius,37349,CYT,3
+Mammuthus primigenius,37349,IRBP,1
+Mammuthus primigenius,37349,A2AB,1
 Mammuthus primigenius,37349,VWF,1
+Mammuthus primigenius,37349,CYTOCHROME,1
 Mammuthus primigenius,37349,LEPR,1
 Mammuthus primigenius,37349,MC1R,1
 Mammuthus primigenius,37349,FGF5,1
 Mammuthus primigenius,37349,HBA,1
 Mammuthus primigenius,37349,D,1
 Mammuthus primigenius,37349,MB,1
-Mammuthus primigenius,37349,IRBP,0
-Mammuthus primigenius,37349,A2AB,0
 Mammuthus sp.,1851651,ND5,26
 Mammuthus sp.,1851651,CYTB,26
 Mammuthus sp.,1851651,ATP6,23
@@ -134,13 +113,14 @@ Mammuthus sp.,1851651,COX2,20
 Mammuthus sp.,1851651,ND2,19
 Mammuthus sp.,1851651,COX1,18
 Mammuthus sp.,1851651,ND3,18
+Mammuthus sp.,1851651,ND4L,16
 Mammuthus sp.,1851651,ND6,16
-Mammuthus sp.,1851651,ND4L,15
 Mammuthus sp.,1851651,ATP8,11
 Mammuthus sp.,1851651,IRBP,0
 Mammuthus sp.,1851651,A2AB,0
 Mammuthus sp.,1851651,VWF,0
 Mammuthus sp.,1851651,MT,0
+Mammuthus sp.,1851651,CYTOCHROME,0
 Mammuthus sp.,1851651,LEPR,0
 Mammuthus sp.,1851651,MC1R,0
 Mammuthus sp.,1851651,CYT,0
@@ -166,6 +146,7 @@ Mammuthus sp. Bechan Cave,1975613,IRBP,0
 Mammuthus sp. Bechan Cave,1975613,A2AB,0
 Mammuthus sp. Bechan Cave,1975613,VWF,0
 Mammuthus sp. Bechan Cave,1975613,MT,0
+Mammuthus sp. Bechan Cave,1975613,CYTOCHROME,0
 Mammuthus sp. Bechan Cave,1975613,LEPR,0
 Mammuthus sp. Bechan Cave,1975613,MC1R,0
 Mammuthus sp. Bechan Cave,1975613,CYT,0

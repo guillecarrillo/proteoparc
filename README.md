@@ -18,7 +18,9 @@ The pipeline is based on three modules:
 2.  **Post processing module**. Does optional modifications to the multi-fasta database, like removing redundant records with exact or substring sequences or removing the word 'isoform' from the record headers.
 3.  **Metadata module**. Generates some tables and files with metadata information about the database, like the number of species retrieved or the genes not found during the search.
 
-![*Pipeline's workflow, the elements in square brackets mean optional inputs or actions*](images/Workflow_pipeline_2.0_background.png)
+![](images/Workflow_pipeline_2.0_background.png)
+
+*Pipeline's workflow, the elements in square brackets mean optional inputs or actions*
 
 All these modules are merged in one [Python](https://www.python.org) script, named `proteoparc.py`. A very short usage can be seen trying `python3 proteoparc.py -h` or `python3 proteoparc.py --help` in the terminal. However, we recommend the user to read the [**Tutorial**](documentation/tutorial.md) for a more detailed -but still short- explanation, especially if bioinformatics is something new for you.
 

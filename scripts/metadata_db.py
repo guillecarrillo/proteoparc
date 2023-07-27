@@ -113,14 +113,15 @@ with open(database_path, "rt") as database_file:
             gene = retrieve_tag("GN=(\w+)", line).upper() #Gene
             species = retrieve_tag("OS=(.*?)\sOX=", line) #Species
             taxid = retrieve_tag("OX=(\w+)", line) #TaxID
-            update = retrieve_tag("\|([\d-]+)", line) #Update date
+            date = retrieve_tag("\|([\d-]+)", line) #Update date
+            version = retrieve_tag("SV=(\d+)", line) #Sequence version
 
-            header_info = "{},{},{},{},{},{}".format(upi,database,gene,species,taxid,update)
+            header_info = "{},{},{},{},{},{},{}".format(upi,database,gene,species,taxid,date,version)
             records.append(header_info)
 
 #c. Print all the information in a CSV file
 with open(metadata_folder_path + "/records_info.csv", "wt") as records_info_file:
-    records_info_file.write("Unic Identifier,Database,Gene,Species,TaxID,Last Update\n")
+    records_info_file.write("Unic Identifier,Database,Gene,Species,TaxID,Last update,Sequence version\n")
     for header in records:
         records_info_file.write(header + "\n")
         

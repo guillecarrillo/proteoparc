@@ -42,7 +42,7 @@ These steps only have to be done once, so now you are ready to use the pipeline!
 
 Firstly, you need to **select a TaxID** to focus your protein search. This number, which is shared between UniProt and NCBI, works as a unique identifier that represents a taxonomic category, for instance, *Homo sapiens* TaxID is 9606 and Mammalia (class) is 40674. To find the TaxID that corresponds to your desired taxa, you can search both in NCBI or UniProt taxonomy browser, but we extremely recommend the [UniProt](https://www.uniprot.org/taxonomy) one as it has a more intuitive interface. The higher the scale of the TaxID the more proteins you will download. For instance, using 9779 TaxID will download all Proboscidea (elephants) proteins, and using 9783 will only download *Elephas maximus* (Indian elephant) proteins.
 
-The next step is to activate the **conda environment**, to do so, type the following command in the terminal:
+The next step is to **activate the** **conda environment**, to do so, type the following command in the terminal:
 
 ``` bash
 conda activate proteoparc
@@ -50,7 +50,7 @@ conda activate proteoparc
 
 Remember to activate the environment every time before using the pipeline. You can deactivate the environment by typing `conda deactivate` if you want to stop working with ProteoParc.
 
-Now it's time to execute the pipeline, to do so your working directory must be in the proteoparc folder. Now, type `python3 proteoparc.py` plus the required and optional arguments. The only mandatory arguments are:
+Now it's time to execute the pipeline, to do so, **your working directory must be in the proteoparc folder**. Now, type `python3 proteoparc.py` plus the required and optional arguments. The only mandatory arguments are:
 
 -   `-p` or `--project` to indicate the name of the project
 
@@ -62,7 +62,7 @@ A simple pipeline execution can be:
 python3 proteoparc.py -p mammalia_enamelome -t 40674 -g enamelome.txt
 ```
 
-In this case, we are downloading enamel proteins for all the mammalian species. The argument `-g` indicates the path to a list of 15 enamel genes to focus the search. Remember that you can see all the output explanation in the [**Code Overview**](documentation/code.md) manual.
+In this case, we are downloading enamel proteins for all the mammalian species. The argument `-g` indicates the path to a list of 15 enamel genes to focus the search. Remember that you can see all the output explanation in the [**Code Overview**](../documentation/code.md) manual.
 
 ## All the pipeline arguments
 
@@ -77,9 +77,17 @@ More options can be added to the pipeline to perform a more personalized search.
 
 **Optional arguments**
 
--   `-g` or `--genes`. Indicate a path to a text file containing a list of genes (one per row) and focus the search to only the proteins that come from those genes.
+-   `-g` or `--genes`. Indicate a path to a text file containing a list of genes (one per row) and focus the search to only the proteins that come from those genes. Below there is an example of a valid gene list text file.
 
--   `--path`. Indicate a path to the output folder. If this argument is not indicated, the result folder will be in the current working directory.
+    ``` texinfo
+    FOXP2
+    AMELX
+    COL17A1
+    APOE
+    BRCA1
+    ```
+
+-   `--path`. Indicate a path to store the output folder. If this argument is not indicated, the result folder will be created in the current working directory.
 
 -   `--remove-duplicates` \| `--no-remove-duplicates`. Specify if the duplicate records are removed during the post-processing module. By default, the duplicates will be removed even if `--remove-duplicates` is not specified. This option is designed to simplify the database and reduce computational cost during protein identification.
 
@@ -89,7 +97,7 @@ Remember, you can check easily all the pipeline options by typing `python3 prote
 
 ## Output example
 
-In the documentation/example folder, you can find two database examples with different parameters. These examples were done in July 2023, so future performances can change the output due to a UniParc update.
+In the documentation/example folder, you can find two database examples created using different parameters. These examples were done in July 2023, so future performances with the same framework can change the output due to an UniParc update.
 
 1.  **Quick download**. A protein search focused on enamel Proboscidea (elephants) proteins. The gene list used contained 15 enamel gene names.
 

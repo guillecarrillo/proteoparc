@@ -24,9 +24,8 @@ The script has four main sections:
 1. Importing the genes from the gene_list file to a Python list (if a path to
     the gene list is specified).
 2. Recovering information about the TaxID using the Uniprot API. Specifically, 
-    the clade name that corresponds to the TaxID number and a list of the 
-    descendent clades (e.g. Homo sapiens [TaxID=9606] is a descendent clade of 
-    Hominidae [TaxID=9604]). 
+    a list of the descendent clades that belongs to the selected TaxID (e.g. Homo 
+    sapiens [TaxID=9606] is a descendent clade of Hominidae [TaxID=9604]). 
 3. Defining a function that takes a JSON object and turns it into FASTA format.
     This function is designed specifically to retrieve information from the UniParc 
     JSON objects and also creating a specific FASTA header (see README.md file).
@@ -65,11 +64,8 @@ one record (and the proper unique identifier) associated with many species.
 Because of this, sometimes the query retrieves a random specie instead of one
 corresponding to our lineage. To fix this error, we create a list with all the 
 descendent's clade's TaxID to evaluate if the association belongs or not to our 
-TaxID. If it founds a mismatch, there will be the following modifications in the 
-header:
-
-OS= TaxID corresponding name (for example, Proboscidea)
-OX= TaxID number (for example, 9779)
+TaxID, so the metadata information will be the corresponding to the first record
+matching a specie that belongs to the selected TaxID clade.
 """
 
 #2.1 Build API link for downloading in UniProt the list of taxonomic descendent species contained in the TaxID
@@ -80,41 +76,41 @@ tax_id_list = tax_id_download.split("\n")
 tax_id_list.pop() #Remove the last element of the list (is empty)
 tax_id_list = [int(taxid) for taxid in tax_id_list] #Convert strings into integers
 
-#2.2 TaxID organism name
-url_org_name = "https://rest.uniprot.org/taxonomy/stream?format=json&query=%28%28tax_id%3A{}%29%29".format(str(tax_id))
-
-org_name_str = str(requests.get(url_org_name).text) #Downloads a string with the TaxID information in JSON format
-org_name_dic = json.loads(org_name_str) #Turn the string into a dictionary (JSON format)
-
-org_name = org_name_dic["results"][0]["scientificName"] #Retrieve the TaxID corresponding name
-
 #3. Convert JSON format to FASTA
 def json_to_fasta(record, gene_name=None):
 
-    #Retrieves all the header information from the JSON object
-    header = ">" + record["uniParcCrossReferences"][0]["database"] + "|" + record["uniParcId"] + "|" + \
-    record["uniParcCrossReferences"][0]["lastUpdated"]+ " "
-    
-    if "proteinName" in record["uniParcCrossReferences"][0]:
-        header += record["uniParcCrossReferences"][0]["proteinName"] + " "
-
+    # Iterate for each database in the JSON file
     for database in record["uniParcCrossReferences"]:
 
-        if "organism" in database:          
-            if database["organism"]["taxonId"] not in tax_id_list:
-                header += "OS=" + org_name + " " + \
-                "OX=" + str(tax_id) + " "
-            else:
+        if "organism" in database:
+            if database["organism"]["taxonId"] in tax_id_list:
+
+                #Retrieves all the header information from the JSON object
+                
+                ## Info between pipes
+                header = ">" + database["database"] + "|" + record["uniParcId"] + "|" + \
+                database["lastUpdated"] + " "
+                
+                ## Protein name
+                if "proteinName" in database:
+                    header += database["proteinName"] + " "
+
+                ## Specie + TaxID
                 header += "OS=" + database["organism"]["scientificName"] + " " + \
                 "OX=" + str(database["organism"]["taxonId"]) + " "
-            
-            break
-                    
-    if gene_name != None:
-        header += "GN=" + gene_name
-    elif gene_name == None:
-        if "geneName" in record["uniParcCrossReferences"][0]:
-            header += "GN=" + record["uniParcCrossReferences"][0]["geneName"]
+
+                ## Gene name                
+                if gene_name != None:
+                    header += " GN=" + gene_name
+
+                elif gene_name == None:
+                    if "geneName" in database:
+                        header += " GN=" + database["geneName"]
+
+                ## Sequence version
+                header += " SV=" + str(record["uniParcCrossReferences"][0]["versionI"])
+
+                break
 
     #Retrieves the sequence from the JSON object
     sequence = record["sequence"]["value"]
