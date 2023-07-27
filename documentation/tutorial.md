@@ -105,7 +105,7 @@ In the documentation/example folder, you can find two database examples created 
 python3 proteoparc.py -p proboscidea_enamelome -t 9779 -g enamelome.txt
 ```
 
-The output printed was:
+The printed output was:
 
 ``` texinfo
 # Downloading the proteins indicated in 'enamelome.txt'
@@ -121,6 +121,7 @@ The output printed was:
 ``` bash
 python3 proteoparc.py -p mammuthus_proteome -t 37348
 ```
+The printed output was:
 
 ``` texinfo
 # Downloading the full proteome
