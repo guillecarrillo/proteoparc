@@ -14,13 +14,13 @@ This document describes the usage of ProteoParc, a pipeline for the creation of 
 
 ## Set up
 
-First of all, the user needs to **download the pipeline**. To do so, open the terminal and change the working directory to the folder you want to store the pipeline using the `cd` command. Then, type the following in the terminal:
+First of all, the user needs to **download the pipeline**. To do so, open the terminal and use the `cd` command to change the working directory to the folder you want to store the pipeline. Then, type the following in the terminal:
 
 ``` bash
 git clone https://github.com/guillecarrillo/proteoparc
 ```
 
-Once the pipeline is downloaded in your computer, change again your working directory to the proteoparc folder using the `cd` command. Now, **create the conda virtual environment** typing the following:
+Once the pipeline is downloaded in your computer, change again your working directory to the proteoparc folder using again the `cd` command. Now, **create the conda virtual environment** typing the following:
 
 ``` bash
 conda env create -f .set_up.ylm
@@ -30,7 +30,7 @@ This environment will have all the software needed to run the pipeline, which ma
 
 ``` bash
 conda create -n proteoparc python=3.9
-conda activate proteotaxid
+conda activate proteoparc
 pip install pandas
 pip install requests
 conda deactivate
@@ -40,7 +40,7 @@ These steps only have to be done once, so now you are ready to use the pipeline!
 
 ## Execution time! Make it simple
 
-Firstly, you need to **select a TaxID** to focus your protein search. This number, which is shared between UniProt and NCBI, works as a unique identifier that represents a taxonomic category, for instance, *Homo sapiens* TaxID is 9606 and Mammalia (class) is 40674. To find the TaxID that corresponds to your desired taxa, you can search both in NCBI or UniProt taxonomy browser, but we extremely recommend the [UniProt](https://www.uniprot.org/taxonomy) one as it has a more intuitive interface. The higher the scale of the TaxID the more proteins you will download. For instance, using 9779 TaxID will download all Proboscidea (elephants) proteins, and using 9783 will only download *Elephas maximus* (Indian elephant) proteins.
+Firstly, you need to **select a TaxID** to focus your protein search. This number, which is shared between UniProt and NCBI, works as a unique identifier that represents a taxonomic category, for instance, *Homo sapiens* TaxID is 9606 and Mammalia (class) is 40674. To find the TaxID that corresponds to your desired taxa, you can search both in NCBI or [UniProt taxonomy browser](https://www.uniprot.org/taxonomy), but we extremely recommend the UniProt one as it has a more intuitive interface. The higher the scale of the TaxID the more proteins you will download. For instance, using 9779 TaxID will download all Proboscidea (elephants, order) proteins, and using 9783 will only download *Elephas maximus* (Indian elephant) proteins.
 
 The next step is to **activate the** **conda environment**, to do so, type the following command in the terminal:
 
@@ -77,15 +77,7 @@ More options can be added to the pipeline to perform a more personalized search.
 
 **Optional arguments**
 
--   `-g` or `--genes`. Indicate a path to a text file containing a list of genes (one per row) and focus the search to only the proteins that come from those genes. Below there is an example of a valid gene list text file.
-
-    ``` texinfo
-    FOXP2
-    AMELX
-    COL17A1
-    APOE
-    BRCA1
-    ```
+-   `-g` or `--genes`. Indicate a path to a text file containing a list of genes (one per row) and focus the search to only the proteins that come from those genes. In the next link you can find an example of a valid [gene list](../documentation/example/enamelome.txt) text file.
 
 -   `--path`. Indicate a path to store the output folder. If this argument is not indicated, the result folder will be created in the current working directory.
 
@@ -97,7 +89,7 @@ Remember, you can check easily all the pipeline options by typing `python3 prote
 
 ## Output example
 
-In the documentation/example folder, you can find two database examples created using different parameters. These examples were done in July 2023, so future performances with the same framework can change the output due to an UniParc update.
+In the [example](../documentation/example) folder, you can find two database examples created using different parameters. These examples were done in July 2023, so future performances with the same framework can change the output due to an UniParc update.
 
 1.  **Quick download**. A protein search focused on enamel Proboscidea (elephants) proteins. The gene list used contained 15 enamel gene names.
 
@@ -121,6 +113,7 @@ The printed output was:
 ``` bash
 python3 proteoparc.py -p mammuthus_proteome -t 37348
 ```
+
 The printed output was:
 
 ``` texinfo
