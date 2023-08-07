@@ -39,6 +39,7 @@ def main():
     delete the resuls folder and stop the pipeline
     """
     download_proteins(RESULTS_FOLDER, TAX_ID, GENES)
+    
     if not os.path.exists(RESULTS_FOLDER + "/unfiltered_database.fasta"):
         os.system(f"rm -r {RESULTS_FOLDER}")
         print("ERROR: NO PROTEINS FOUND")
@@ -55,7 +56,6 @@ def main():
 
     #3. Metadata module
     produce_metadata(RESULTS_FOLDER, DATABASE_NAME, GENES)
-
 
 #0. Set the arguments to run the program from the command line (parser)
 def parser():

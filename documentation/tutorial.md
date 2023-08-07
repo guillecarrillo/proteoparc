@@ -8,7 +8,7 @@ This document describes the usage of ProteoParc, a pipeline for the creation of 
 
 2.  **Internet connection.** During the usage of the pipeline it's important to have a stable internet connection. The download time will be affected by this and the performance of the pipeline will be affected by this.
 
-3.  **Anaconda software**. Anaconda (or just Conda) is an environment management system that allows you to quickly install, run, and update packages and their dependencies. The user can easily download this software [here](https://www.anaconda.com/download). You can check if Conda is installed in your computer just typing `conda` in your terminal.
+3.  **Anaconda software**. Anaconda (or just Conda) is an environment management system that allows you to quickly install, run, and update packages and their dependencies. The user can easily download this software [here](https://www.anaconda.com/download), we extremely recommend to reboot the system after the download. You can check if Conda is installed in your computer just typing `conda` in your terminal.
 
 4.  **Git software**. Git is a software that allows the user to work with file repositories and download software from GitHub. It can be easily downloaded from [here](https://git-scm.com). As in the previous step, you can check if Git is installed in your computer just typing `git` in your terminal.
 
@@ -20,10 +20,10 @@ First of all, the user needs to **download the pipeline**. To do so, open the te
 git clone https://github.com/guillecarrillo/proteoparc
 ```
 
-Once the pipeline is downloaded in your computer, change again your working directory to the proteoparc folder using again the `cd` command. Now, **create the conda virtual environment** typing the following:
+Once the pipeline is downloaded in your computer, change again your working directory to the proteoparc folder using again the `cd` command. Now, **create the conda virtual environment** typing the following command. This action can take some minutes.
 
 ``` bash
-conda env create -f .set_up.ylm
+conda env create -f .set_up.yml
 ```
 
 This environment will have all the software needed to run the pipeline, which mainly consists of Python 3.9 plus some packages such as *pandas* or *requests*. If the previous command **brings an error**, try this instead:
@@ -56,7 +56,7 @@ Now it's time to execute the pipeline, to do so, **your working directory must b
 
 -   `-t` or `--tax-id` to indicate the TaxID
 
-A simple pipeline execution can be:
+A simple execution can be:
 
 ``` bash
 python3 proteoparc.py -p mammalia_enamelome -t 40674 -g enamelome.txt
@@ -83,7 +83,7 @@ More options can be added to the pipeline to perform a more personalized search.
 
 -   `--remove-duplicates` \| `--no-remove-duplicates`. Specify if the duplicate records are removed during the post-processing module. By default, the duplicates will be removed even if `--remove-duplicates` is not specified. This option is designed to simplify the database and reduce computational cost during protein identification.
 
--   `--remove-isoform-word` \| `--no-remove-isoform-word`. Specify if the 'isoform' word is removed from the multi-fasta headers during the post-processing module. By default, the word 'isoform' will be removed even if `--remove-duplicates` is not specified. This option is designed because of an observed output interference in some protein identification software.
+-   `--remove-isoform-word` \| `--no-remove-isoform-word`. Specify if the 'isoform' word is removed from the multi-fasta headers during the post-processing module. By default, the word 'isoform' will be removed even if `--remove-duplicates` is not specified. This option was designed because of an observed output interference in some protein identification software.
 
 Remember, you can check easily all the pipeline options by typing `python3 proteoparc.py -h`
 

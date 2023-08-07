@@ -97,7 +97,7 @@ def json_to_fasta(record, gene_name=None):
 
                 ## Specie + TaxID
                 header += "OS=" + database["organism"]["scientificName"] + " " + \
-                "OX=" + str(database["organism"]["taxonId"]) + " "
+                "OX=" + str(database["organism"]["taxonId"])
 
                 ## Gene name                
                 if gene_name != None:

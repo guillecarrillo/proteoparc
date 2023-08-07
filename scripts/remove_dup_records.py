@@ -15,7 +15,7 @@ multi-fasta (without redundancy) and another multi-fasta with the records remove
 The way it detects redundancy is based on the sequence (DNA or protein), and 
 it can occur in two different situations:
 
-1. Both records have the same amino acid sequence. In this case, the removed record
+1. Both records have the same sequence. In this case, the removed record
     is the first to be found in the multi-fasta. For example, among the following 
     records, 'A' will be removed from the multi-fasta:
 
