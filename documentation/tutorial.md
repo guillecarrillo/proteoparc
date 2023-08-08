@@ -14,13 +14,27 @@ This document describes the usage of ProteoParc, a pipeline for the creation of 
 
 ## Set up
 
-First of all, the user needs to **download the pipeline**. To do so, open the terminal and use the `cd` command to change the working directory to the folder you want to store the pipeline. Then, type the following in the terminal:
+First of all, the user needs to **download the pipeline**. To do so, open the terminal and navigate to the folder you want to store the pipeline using the [`cd` command](https://www.cyberciti.biz/faq/how-to-change-directory-in-linux-terminal/). As an example, imagine you want to store the pipeline in a folder named *pipelines* inside the *Documents* folder, in this case you should type:
+
+``` bash
+# This path is an example, the user should writte it's own persolanized path
+cd /Users/user_name/Documents/pipeline
+```
+
+Then, type the following in the terminal:
 
 ``` bash
 git clone https://github.com/guillecarrillo/proteoparc
 ```
 
-Once the pipeline is downloaded in your computer, change again your working directory to the proteoparc folder using again the `cd` command. Now, **create the conda virtual environment** typing the following command. This action can take some minutes.
+Once the pipeline is downloaded in your computer, change again your working directory to the proteoparc folder using the `cd` command. Following the previous example, you can type:
+
+``` bash
+# This path is an example, the user should writte it's own persolanized path
+cd /Users/user_name/Documents/pipeline/proteoparc
+```
+
+Now, **create the conda virtual environment** typing the following command. This action can take some minutes.
 
 ``` bash
 conda env create -f .set_up.yml
@@ -42,7 +56,7 @@ These steps only have to be done once, so now you are ready to use the pipeline!
 
 Firstly, you need to **select a TaxID** to focus your protein search. This number, which is shared between UniProt and NCBI, works as a unique identifier that represents a taxonomic category, for instance, *Homo sapiens* TaxID is 9606 and Mammalia (class) is 40674. To find the TaxID that corresponds to your desired taxa, you can search both in NCBI or [UniProt taxonomy browser](https://www.uniprot.org/taxonomy), but we extremely recommend the UniProt one as it has a more intuitive interface. The higher the scale of the TaxID the more proteins you will download. For instance, using 9779 TaxID will download all Proboscidea (elephants, order) proteins, and using 9783 will only download *Elephas maximus* (Indian elephant) proteins.
 
-The next step is to **activate the** **conda environment**, to do so, type the following command in the terminal:
+The next step is to **activate the conda environment**, to do so, type the following command in the terminal:
 
 ``` bash
 conda activate proteoparc
