@@ -1,31 +1,32 @@
-# ProteoParc: A pipeline for the creation of protein databases focused on paleoprotein mass spectrometry identification.
+# ProteoParc: A bioinformatic tool to generate reference databases for ancient protein data analysis
 
-**Version 1.0**
+**Version 1.1**
 
-![](images/PROTEOPARC_logo.png)
+![](documentation/images/PROTEOPARC_logo.png)
 
-## What is this?
+## What is ProteoParc?
 
-ProteoParc is a pipeline that creates a protein multi-fasta database meant to be used in mass spectrometry software for protein identification. The software downloads the protein records from [UniParc](https://www.uniprot.org/help/uniparc), a non redundant repository that stores all the proteins found in more than 20 databases, including Ensembl, RefSeq, and UniProt among others. The search is focused on a specific taxonomic group (indicated using the NCBI/UniProt [TaxID](https://www.ncbi.nlm.nih.gov/books/NBK53758/#_taxonomyqs_Data_Model_)) and can be reduced to a certain group of genes to decrease the protein identification computational cost.
+ProteoParc is a pipeline to generate reference multi-fasta protein databases for MS/MS peptide identification. In short, it works as a protein downloader and processor of [UniParc](https://www.uniprot.org/help/uniparc), a non-redundant archive storing peptide sequences found in more than 20 repositories, including Ensembl, RefSeq, and UniProt. The search is focused on a specific taxonomic group (indicated using the NCBI/UniProt [TaxID](https://www.ncbi.nlm.nih.gov/books/NBK53758/#_taxonomyqs_Data_Model_)) and can be reduced to a certain group of gene names to increase database specificity. Although its use can be diverse, ProteoParc is intended to generate reference databases for paleoproteomic analysis, where it is crucial to include protein information from a diverse number of extant and extinct species.
 
-Although its use can be very diverse, this pipeline is intended to generate protein databases for palaeoprotein identification, where it is important to include protein information from a diverse number of extant and extinct species.
+## How does it work?
 
-## How do I use it?
+A concise usage can be seen by typing `python3 proteoparc.py -h` or `python3 proteoparc.py --help` in the terminal. However, we recommend reading the [**Tutorial**](documentation/tutorial.md) for a more detailed -but still short- explanation of requirements, set-up, and pipeline execution. Coding and output details are explained in the [**Output & Code Overview**](documentation/code.md) manual. ProteoParc's performance is based on three different steps:
 
-The pipeline is based on three modules:
+1.  **Download**. Builds a multi-fasta database with proteins that fulfil the search requirements.
 
-1.  **Download module**. Creates a multi-fasta database file with the proteins that fulfill the search requirements.
-2.  **Post processing module**. Does optional modifications to the multi-fasta database, like removing redundant records with exact or substring sequences or removing the word 'isoform' from the record headers.
-3.  **Metadata module**. Generates some tables and files with metadata information about the database, like the number of species retrieved or the genes not found during the search.
+2.  **Post-processing**. Performs some optional processes to the multi-fasta:
 
-![](images/Workflow_pipeline_2.0_background.png)
+    -   Removing redundant records with exact or fragment (sub-string) sequences to decrease the number of comparisons in protein identification software.
+    -   Generating a protein sequence alignment per each gene name to detect bad-quality records easily.
 
-*Pipeline's workflow, the elements in square brackets mean optional inputs or actions*
+3.  **Metadata**. Generates some tables, files, and plots with metadata information about the database, like the number of species retrieved or the gene names not found during the search.
 
-All these modules are merged in one [Python](https://www.python.org) script, named `proteoparc.py`. A very short usage can be seen trying `python3 proteoparc.py -h` or `python3 proteoparc.py --help` in the terminal. However, we recommend the user to read the [**Tutorial**](documentation/tutorial.md) for a more detailed -but still short- explanation, especially if bioinformatics is something new for you.
+    Disclaimer: Information in metadata files can be underestimated due to UniParc's non-redundant architecture. Evolutionarily conserved proteins will appear only once in UniParc, which biases the number of species recovered. This is also the case for two proteins present in different repositories, as the metadata information will be merged in one UniParc record. That is why we recommend the user to **take the metadata information as the minimum knowledge of the database**.
 
-The details of the code and output files are explained in the [**Code Overview**](documentation/code.md) manual.
+![](documentation/images/ProteoParc-v1.1_workflow.png)
 
-## License
+*ProteoParc's workflow; Asterisk elements are optional inputs or processes*
 
-This pipeline has been possible thanks to a lot of collective work, so its citation in any study in which it is used would be appreciated. Every user is free to change any section of the code so it can be adjusted to individual necessities, if you do so, please indicate it in your manuscripts to avoid confusion. For more information, read the [**License**](LICENSE.md)
+## License & citation
+
+Please cite the following paper when using ProteoParc for your studies: [not published yet]. Code changes are accepted in any section of the script, if you do so, please account for it in your publications. Read the [**License**](LICENSE.md) document for more information about what can/can't be done.

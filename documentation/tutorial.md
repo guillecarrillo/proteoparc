@@ -1,111 +1,103 @@
-# ProteoParc 1.0 tutorial
-
-This document describes the usage of ProteoParc, a pipeline for the creation of protein databases focused on paleoprotein mass spectrometry identification.
+# ProteoParc 1.1 tutorial
 
 ## Requirements
 
-1.  **macOS or Linux operating system.** This software was meant to be used in macOS and Linux operating systems, so it won't probably work on Windows operating system unless an alternative terminal or computer cluster is used.
+1.  **macOS or Linux operating system.** This software was thought to be employed in macOS and Linux operating systems. It won't probably work on Windows unless an alternative terminal is used.
 
-2.  **Internet connection.** During the usage of the pipeline it's important to have a stable internet connection. The download time will be affected by this and the performance of the pipeline will be affected by this.
+2.  **Internet connection.** During the performance, it is important to have a stable internet connection. Otherwise, ProteoParc will stop and print an error.
 
-3.  **Anaconda software**. Anaconda (or just Conda) is an environment management system that allows you to quickly install, run, and update packages and their dependencies. The user can easily download this software [here](https://www.anaconda.com/download), we extremely recommend to reboot the system after the download. You can check if Conda is installed in your computer just typing `conda` in your terminal.
+3.  **Anaconda**. Anaconda/Conda is an environment management tool to quickly install, run, and update packages and their dependencies. It can be easily downloaded [here](https://www.anaconda.com/download). We extremely recommend rebooting your computer after the download. To check if Conda is already installed, type `conda` in the terminal.
 
-4.  **Git software**. Git is a software that allows the user to work with file repositories and download software from GitHub. It can be easily downloaded from [here](https://git-scm.com). As in the previous step, you can check if Git is installed in your computer just typing `git` in your terminal.
+    Disclaimer! This pipeline has been tested using conda v24.5.0
 
-## Set up
+4.  **Git**. Git is a repository management software to work with file versions and download software from GitHub. It can be easily downloaded [here](https://git-scm.com). As in the previous step, you can check if Git is installed on your computer by typing `git` in the terminal.
 
-First of all, the user needs to **download the pipeline**. To do so, open the terminal and navigate to the folder you want to store the pipeline using the [`cd` command](https://www.cyberciti.biz/faq/how-to-change-directory-in-linux-terminal/). As an example, imagine you want to store the pipeline in a folder named *pipelines* inside the *Documents* folder, in this case you should type:
+## Set-up
 
-``` bash
-# This path is an example, the user should writte it's own persolanized path
-cd /Users/user_name/Documents/pipeline
-```
-
-Then, type the following in the terminal:
+To **download ProteoParc,** navigate through the terminal ([change directory](https://www.cyberciti.biz/faq/how-to-change-directory-in-linux-terminal/)) to the folder you want to store the pipeline. Then, type `git clone` the GitHub repository as it is shown in the next command.
 
 ``` bash
+cd /Users/user_name/Documents/software # This path is an example
 git clone https://github.com/guillecarrillo/proteoparc
 ```
 
-Once the pipeline is downloaded in your computer, change again your working directory to the proteoparc folder using the `cd` command. Following the previous example, you can type:
+To set-up the package requirements, navigate to `/proteoparc` and **create a conda virtual environment** by typing the following command.
 
 ``` bash
-# This path is an example, the user should writte it's own persolanized path
-cd /Users/user_name/Documents/pipeline/proteoparc
+cd /Users/user_name/Documents/software/proteoparc # This path is an example
+conda env create -f .set_up.yml # This action can take some minutes
 ```
 
-Now, **create the conda virtual environment** typing the following command. This action can take some minutes.
+This environment has all the package requirements to run the pipeline. If the previous command **brings an error**, try to install each package from scratch as it is shown below.
 
 ``` bash
-conda env create -f .set_up.yml
-```
-
-This environment will have all the software needed to run the pipeline, which mainly consists of Python 3.9 plus some packages such as *pandas* or *requests*. If the previous command **brings an error**, try this instead:
-
-``` bash
-conda create -n proteoparc python=3.9
+conda create -n proteoparc python=3.12.3
 conda activate proteoparc
-pip install pandas
-pip install requests
-conda deactivate
+
+# Bioconda and python modules
+conda install bioconda::mafft==7.525
+pip install pandas==2.2.2
+pip install requests==2.32.3
+pip install bio==1.7.1
+
+# R packages
+conda install conda-forge::r-ggplot2==3.4.4
+conda install conda-forge::r-dplyr==1.1.4
+conda install conda-forge::r-reshape2==1.4.4
+conda install conda-forge::r-tidyr==1.3.1
 ```
 
-These steps only have to be done once, so now you are ready to use the pipeline!
+The conda environment must be activated each time before running ProteoParc. If it is not, type the following command in the terminal:
+
+``` bash
+conda activate proteoparc
+```
 
 ## Execution time! Make it simple
 
-Firstly, you need to **select a TaxID** to focus your protein search. This number, which is shared between UniProt and NCBI, works as a unique identifier that represents a taxonomic category, for instance, *Homo sapiens* TaxID is 9606 and Mammalia (class) is 40674. To find the TaxID that corresponds to your desired taxa, you can search both in NCBI or [UniProt taxonomy browser](https://www.uniprot.org/taxonomy), but we extremely recommend the UniProt one as it has a more intuitive interface. The higher the scale of the TaxID the more proteins you will download. For instance, using 9779 TaxID will download all Proboscidea (elephants, order) proteins, and using 9783 will only download *Elephas maximus* (Indian elephant) proteins.
+Before running ProtepParc, the user must **select a TaxID**. This number, which is shared between UniProt and NCBI, works as a unique identifier representing a taxonomic category. For instance, *Homo sapiens* (species) TaxID is 9606 and Mammalia (class) is 40674. To find a TaxID, you can search both in NCBI or [UniProt taxonomy browser](https://www.uniprot.org/taxonomy). We extremely recommend the UniProt one as it has a more intuitive interface. In general, the higher the scale of the TaxID the more proteins you will download. For instance, 9779 TaxID will download all Proboscidea (elephants, order) proteins, while 9783 will only download *Elephas maximus* (Indian elephant, species) proteins.
 
-The next step is to **activate the conda environment**, to do so, type the following command in the terminal:
-
-``` bash
-conda activate proteoparc
-```
-
-Remember to activate the environment every time before using the pipeline. You can deactivate the environment by typing `conda deactivate` if you want to stop working with ProteoParc.
-
-Now it's time to execute the pipeline, to do so, **your working directory must be in the proteoparc folder**. Now, type `python3 proteoparc.py` plus the required and optional arguments. The only mandatory arguments are:
+Now it's time to execute the pipeline, typing `python3 proteoparc.py` plus the desired options. There are only two mandatory arguments, which are:
 
 -   `-p` or `--project` to indicate the name of the project
 
 -   `-t` or `--tax-id` to indicate the TaxID
 
-A simple execution can be:
+A simple and common execution can be:
 
 ``` bash
 python3 proteoparc.py -p mammalia_enamelome -t 40674 -g enamelome.txt
 ```
 
-In this case, we are downloading enamel proteins for all the mammalian species. The argument `-g` indicates the path to a list of 15 enamel genes to focus the search. Remember that you can see all the output explanation in the [**Code Overview**](../documentation/code.md) manual.
+In this example, ProteoParc is generating a database with enamel proteins for all the mammalian species. The argument `-g` indicates the path to [enamelome.txt](../documentation/example/enamelome.txt), a list of 15 enamel gene names to focus the search.
 
-## All the pipeline arguments
-
-More options can be added to the pipeline to perform a more personalized search.
+## Software arguments
 
 **Mandatory arguments**
 
-| Command             | Description                      |
-|---------------------|----------------------------------|
-| `-p` or `--project` | Indicate the name of the project |
-| `-t` or `--tax-id`  | Indicate the TaxID               |
+-   `-p` or `--project`. Indicate the name of the project.
+
+-   `-t` or `--tax-id`. Indicate the TaxID.
 
 **Optional arguments**
 
--   `-g` or `--genes`. Indicate a path to a text file containing a list of genes (one per row) and focus the search to only the proteins that come from those genes. In the next link you can find an example of a valid [gene list](../documentation/example/enamelome.txt) text file.
+-   `-g` or `--genes`. Indicate a path to a text file containing a list of genes (one per row). The search will be focused on proteins annotated under those gene names. Look at [enamelome.txt](../documentation/example/enamelome.txt) for the correct way of formatting a gene list text file.
 
--   `--path`. Indicate a path to store the output folder. If this argument is not indicated, the result folder will be created in the current working directory.
+-   `--output-path`. Indicate a path to store the output folder. If this argument is not indicated, the result folder will be generated in the current working directory.
 
--   `--remove-duplicates` \| `--no-remove-duplicates`. Specify if the duplicate records are removed during the post-processing module. By default, the duplicates will be removed even if `--remove-duplicates` is not specified. This option is designed to simplify the database and reduce computational cost during protein identification.
+-   `--remove-redundancy` \| `--no-remove-redundancy`. Remove redundant records from the final database. By default, this action is switched on. Two types of redundant records are taken into account under this process:
 
--   `--remove-isoform-word` \| `--no-remove-isoform-word`. Specify if the 'isoform' word is removed from the multi-fasta headers during the post-processing module. By default, the word 'isoform' will be removed even if `--remove-duplicates` is not specified. This option was designed because of an observed output interference in some protein identification software.
+    -   More than two records with the same sequence (one copy is maintained).
 
-Remember, you can check easily all the pipeline options by typing `python3 proteoparc.py -h`
+    -   One record with a sequence being a sub-string of another record's sequence (The sub-string sequence record is removed).
+
+-   `--align-database` \| `--no-align-database`. Generate an alignment multi-fasta file per each different gene name. By default, this action is switched on.
 
 ## Output example
 
-In the [example](../documentation/example) folder, you can find two database examples created using different parameters. These examples were done in July 2023, so future performances with the same framework can change the output due to an UniParc update.
+Two example outputs can be found in the documentation/[example](../documentation/example) folder
 
-1.  **Quick download**. A protein search focused on enamel Proboscidea (elephants) proteins. The gene list used contained 15 enamel gene names.
+**1.- proboscidea_enamelome**. A protein download focused on 15 enamel proteins for all the Proboscidea (elephants) species.
 
 ``` bash
 python3 proteoparc.py -p proboscidea_enamelome -t 9779 -g enamelome.txt
@@ -116,13 +108,14 @@ The printed output was:
 ``` texinfo
 # Downloading the proteins indicated in 'enamelome.txt'
    59 proteins downloaded
-# Removing duplicate records
+# Removing redundant records
    0 records with the same sequence removed
-   5 fragment records removed
-# Creating metadata information
+   6 fragment records removed
+# Aligning database per gene name
+# Generating metadata information
 ```
 
-2.  **Full proteome**. Downloading the full available proteome of the *Mammuthus* genus (mammoths)
+**2.- mammuthus_proteome**. A protein download focused on the whole available proteome of *Mammuthus* genus (mammoths)
 
 ``` bash
 python3 proteoparc.py -p mammuthus_proteome -t 37348
@@ -131,13 +124,18 @@ python3 proteoparc.py -p mammuthus_proteome -t 37348
 The printed output was:
 
 ``` texinfo
-# Downloading the full proteome
-   500 / 1249
-   1000 / 1249
-   1249 / 1249
+# Downloading the whole proteome
+   500/1249
+   1000/1249
+   1249/1249
    1249 proteins downloaded
-# Removing duplicate records
+# Removing redundant records
    0 records with the same sequence removed
-   61 fragment records removed
-# Creating metadata information
+   63 fragment records removed
+# Aligning database per gene name
+# Generating metadata information
+[1] "WARNING: Barplot might be messy due to a high number of gene names or species"
+[1] "WARNING: Grid plot might be messy due to a high number of gene names or species"
 ```
+
+Notice a warning message is printed due to a high number of gene names recovered. This can mess up the metadata plots, making them unintelligible.

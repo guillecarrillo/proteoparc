@@ -1,61 +1,31 @@
-Species,TaxID,Gene,Count
-Elephas maximus,9783,AMELX,1
-Elephas maximus,9783,ENAM,1
-Elephas maximus,9783,ALB,0
-Elephas maximus,9783,COL1A2,0
-Elephas maximus,9783,COL1A1,0
-Elephas maximus,9783,COL2A1,0
-Elephas maximus,9783,AMBN,0
-Elephas maximus,9783,AMELY,0
-Elephas maximus,9783,AMTN,0
-Elephas maximus,9783,MMP20,0
-Elephas maximus,9783,KLK4,0
-Elephas maximus,9783,TUFT1,0
-Elephas maximus,9783,SERPINC1,0
-Elephas maximus,9783,ODAM,0
-Elephas maximus,9783,COL17A1,0
-Elephas maximus indicus,99487,ALB,2
-Elephas maximus indicus,99487,TUFT1,2
-Elephas maximus indicus,99487,COL17A1,2
-Elephas maximus indicus,99487,COL1A2,1
-Elephas maximus indicus,99487,COL1A1,1
-Elephas maximus indicus,99487,COL2A1,1
-Elephas maximus indicus,99487,AMBN,1
-Elephas maximus indicus,99487,AMELX,1
-Elephas maximus indicus,99487,ENAM,1
-Elephas maximus indicus,99487,AMTN,1
-Elephas maximus indicus,99487,MMP20,1
-Elephas maximus indicus,99487,SERPINC1,1
-Elephas maximus indicus,99487,ODAM,1
-Elephas maximus indicus,99487,AMELY,0
-Elephas maximus indicus,99487,KLK4,0
-Loxodonta africana,9785,AMELX,6
-Loxodonta africana,9785,COL17A1,4
-Loxodonta africana,9785,COL1A1,3
-Loxodonta africana,9785,COL2A1,3
-Loxodonta africana,9785,AMTN,3
-Loxodonta africana,9785,TUFT1,3
-Loxodonta africana,9785,ODAM,3
-Loxodonta africana,9785,AMBN,2
-Loxodonta africana,9785,ENAM,2
-Loxodonta africana,9785,SERPINC1,2
-Loxodonta africana,9785,ALB,1
-Loxodonta africana,9785,COL1A2,1
-Loxodonta africana,9785,AMELY,1
-Loxodonta africana,9785,MMP20,1
-Loxodonta africana,9785,KLK4,0
-Mammut americanum,39053,COL1A1,1
-Mammut americanum,39053,ALB,0
-Mammut americanum,39053,COL1A2,0
-Mammut americanum,39053,COL2A1,0
-Mammut americanum,39053,AMBN,0
-Mammut americanum,39053,AMELX,0
-Mammut americanum,39053,ENAM,0
-Mammut americanum,39053,AMELY,0
-Mammut americanum,39053,AMTN,0
-Mammut americanum,39053,MMP20,0
-Mammut americanum,39053,KLK4,0
-Mammut americanum,39053,TUFT1,0
-Mammut americanum,39053,SERPINC1,0
-Mammut americanum,39053,ODAM,0
-Mammut americanum,39053,COL17A1,0
+Species,Gene,Count
+Elephas maximus,AMELX,1
+Elephas maximus,ENAM,1
+Elephas maximus indicus,ALB,2
+Elephas maximus indicus,COL17A1,2
+Elephas maximus indicus,TUFT1,2
+Elephas maximus indicus,AMBN,1
+Elephas maximus indicus,AMELX,1
+Elephas maximus indicus,AMTN,1
+Elephas maximus indicus,COL1A1,1
+Elephas maximus indicus,COL1A2,1
+Elephas maximus indicus,COL2A1,1
+Elephas maximus indicus,ENAM,1
+Elephas maximus indicus,MMP20,1
+Elephas maximus indicus,ODAM,1
+Elephas maximus indicus,SERPINC1,1
+Loxodonta africana,AMELX,6
+Loxodonta africana,ODAM,5
+Loxodonta africana,AMTN,4
+Loxodonta africana,COL17A1,4
+Loxodonta africana,COL2A1,4
+Loxodonta africana,TUFT1,4
+Loxodonta africana,AMBN,3
+Loxodonta africana,COL1A1,3
+Loxodonta africana,ENAM,2
+Loxodonta africana,SERPINC1,2
+Loxodonta africana,ALB,1
+Loxodonta africana,AMELY,1
+Loxodonta africana,COL1A2,1
+Loxodonta africana,MMP20,1
+Mammut americanum,COL1A1,1

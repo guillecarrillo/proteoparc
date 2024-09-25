@@ -1,157 +1,98 @@
-Species,TaxID,Gene,Count
-Mammuthus columbi,1027716,ND5,7
-Mammuthus columbi,1027716,ND2,6
-Mammuthus columbi,1027716,ND3,5
-Mammuthus columbi,1027716,ND4,5
-Mammuthus columbi,1027716,ATP6,5
-Mammuthus columbi,1027716,COX1,4
-Mammuthus columbi,1027716,CYTB,4
-Mammuthus columbi,1027716,ND4L,3
-Mammuthus columbi,1027716,COX2,3
-Mammuthus columbi,1027716,COX3,3
-Mammuthus columbi,1027716,ND6,2
-Mammuthus columbi,1027716,ND1,2
-Mammuthus columbi,1027716,ATP8,1
-Mammuthus columbi,1027716,IRBP,0
-Mammuthus columbi,1027716,A2AB,0
-Mammuthus columbi,1027716,VWF,0
-Mammuthus columbi,1027716,MT,0
-Mammuthus columbi,1027716,CYTOCHROME,0
-Mammuthus columbi,1027716,LEPR,0
-Mammuthus columbi,1027716,MC1R,0
-Mammuthus columbi,1027716,CYT,0
-Mammuthus columbi,1027716,FGF5,0
-Mammuthus columbi,1027716,HBA,0
-Mammuthus columbi,1027716,D,0
-Mammuthus columbi,1027716,MB,0
-Mammuthus columbi,1027716,MAPR,0
-Mammuthus exilis,1851653,COX3,2
-Mammuthus exilis,1851653,COX2,1
-Mammuthus exilis,1851653,ND6,1
-Mammuthus exilis,1851653,ND5,1
-Mammuthus exilis,1851653,ND3,1
-Mammuthus exilis,1851653,ND4L,1
-Mammuthus exilis,1851653,CYTB,1
-Mammuthus exilis,1851653,ND4,1
-Mammuthus exilis,1851653,ND1,1
-Mammuthus exilis,1851653,ND2,1
-Mammuthus exilis,1851653,ATP6,1
-Mammuthus exilis,1851653,COX1,1
-Mammuthus exilis,1851653,ATP8,1
-Mammuthus exilis,1851653,IRBP,0
-Mammuthus exilis,1851653,A2AB,0
-Mammuthus exilis,1851653,VWF,0
-Mammuthus exilis,1851653,MT,0
-Mammuthus exilis,1851653,CYTOCHROME,0
-Mammuthus exilis,1851653,LEPR,0
-Mammuthus exilis,1851653,MC1R,0
-Mammuthus exilis,1851653,CYT,0
-Mammuthus exilis,1851653,FGF5,0
-Mammuthus exilis,1851653,HBA,0
-Mammuthus exilis,1851653,D,0
-Mammuthus exilis,1851653,MB,0
-Mammuthus exilis,1851653,MAPR,0
-Mammuthus jeffersonii,1851652,ND5,2
-Mammuthus jeffersonii,1851652,ND4,1
-Mammuthus jeffersonii,1851652,ATP6,1
-Mammuthus jeffersonii,1851652,COX2,1
-Mammuthus jeffersonii,1851652,CYTB,1
-Mammuthus jeffersonii,1851652,ND3,1
-Mammuthus jeffersonii,1851652,IRBP,0
-Mammuthus jeffersonii,1851652,A2AB,0
-Mammuthus jeffersonii,1851652,VWF,0
-Mammuthus jeffersonii,1851652,MT,0
-Mammuthus jeffersonii,1851652,CYTOCHROME,0
-Mammuthus jeffersonii,1851652,ND1,0
-Mammuthus jeffersonii,1851652,ND2,0
-Mammuthus jeffersonii,1851652,LEPR,0
-Mammuthus jeffersonii,1851652,MC1R,0
-Mammuthus jeffersonii,1851652,CYT,0
-Mammuthus jeffersonii,1851652,COX1,0
-Mammuthus jeffersonii,1851652,COX3,0
-Mammuthus jeffersonii,1851652,ND6,0
-Mammuthus jeffersonii,1851652,ATP8,0
-Mammuthus jeffersonii,1851652,ND4L,0
-Mammuthus jeffersonii,1851652,FGF5,0
-Mammuthus jeffersonii,1851652,HBA,0
-Mammuthus jeffersonii,1851652,D,0
-Mammuthus jeffersonii,1851652,MB,0
-Mammuthus jeffersonii,1851652,MAPR,0
-Mammuthus primigenius,37349,CYTB,91
-Mammuthus primigenius,37349,ND5,78
-Mammuthus primigenius,37349,ND4,71
-Mammuthus primigenius,37349,ND2,70
-Mammuthus primigenius,37349,ATP6,69
-Mammuthus primigenius,37349,COX1,65
-Mammuthus primigenius,37349,ND1,62
-Mammuthus primigenius,37349,COX3,62
-Mammuthus primigenius,37349,COX2,61
-Mammuthus primigenius,37349,ND6,55
-Mammuthus primigenius,37349,ND3,49
-Mammuthus primigenius,37349,ND4L,35
-Mammuthus primigenius,37349,ATP8,22
-Mammuthus primigenius,37349,MT,12
-Mammuthus primigenius,37349,MAPR,9
-Mammuthus primigenius,37349,CYT,3
-Mammuthus primigenius,37349,IRBP,1
-Mammuthus primigenius,37349,A2AB,1
-Mammuthus primigenius,37349,VWF,1
-Mammuthus primigenius,37349,CYTOCHROME,1
-Mammuthus primigenius,37349,LEPR,1
-Mammuthus primigenius,37349,MC1R,1
-Mammuthus primigenius,37349,FGF5,1
-Mammuthus primigenius,37349,HBA,1
-Mammuthus primigenius,37349,D,1
-Mammuthus primigenius,37349,MB,1
-Mammuthus sp.,1851651,ND5,26
-Mammuthus sp.,1851651,CYTB,26
-Mammuthus sp.,1851651,ATP6,23
-Mammuthus sp.,1851651,ND4,22
-Mammuthus sp.,1851651,COX3,20
-Mammuthus sp.,1851651,ND1,20
-Mammuthus sp.,1851651,COX2,20
-Mammuthus sp.,1851651,ND2,19
-Mammuthus sp.,1851651,COX1,18
-Mammuthus sp.,1851651,ND3,18
-Mammuthus sp.,1851651,ND4L,16
-Mammuthus sp.,1851651,ND6,16
-Mammuthus sp.,1851651,ATP8,11
-Mammuthus sp.,1851651,IRBP,0
-Mammuthus sp.,1851651,A2AB,0
-Mammuthus sp.,1851651,VWF,0
-Mammuthus sp.,1851651,MT,0
-Mammuthus sp.,1851651,CYTOCHROME,0
-Mammuthus sp.,1851651,LEPR,0
-Mammuthus sp.,1851651,MC1R,0
-Mammuthus sp.,1851651,CYT,0
-Mammuthus sp.,1851651,FGF5,0
-Mammuthus sp.,1851651,HBA,0
-Mammuthus sp.,1851651,D,0
-Mammuthus sp.,1851651,MB,0
-Mammuthus sp.,1851651,MAPR,0
-Mammuthus sp. Bechan Cave,1975613,ND1,1
-Mammuthus sp. Bechan Cave,1975613,ND5,1
-Mammuthus sp. Bechan Cave,1975613,CYTB,1
-Mammuthus sp. Bechan Cave,1975613,ND4L,1
-Mammuthus sp. Bechan Cave,1975613,ND4,1
-Mammuthus sp. Bechan Cave,1975613,ND2,1
-Mammuthus sp. Bechan Cave,1975613,ATP6,1
-Mammuthus sp. Bechan Cave,1975613,ND3,1
-Mammuthus sp. Bechan Cave,1975613,ND6,1
-Mammuthus sp. Bechan Cave,1975613,COX3,1
-Mammuthus sp. Bechan Cave,1975613,COX1,1
-Mammuthus sp. Bechan Cave,1975613,ATP8,1
-Mammuthus sp. Bechan Cave,1975613,COX2,1
-Mammuthus sp. Bechan Cave,1975613,IRBP,0
-Mammuthus sp. Bechan Cave,1975613,A2AB,0
-Mammuthus sp. Bechan Cave,1975613,VWF,0
-Mammuthus sp. Bechan Cave,1975613,MT,0
-Mammuthus sp. Bechan Cave,1975613,CYTOCHROME,0
-Mammuthus sp. Bechan Cave,1975613,LEPR,0
-Mammuthus sp. Bechan Cave,1975613,MC1R,0
-Mammuthus sp. Bechan Cave,1975613,CYT,0
-Mammuthus sp. Bechan Cave,1975613,FGF5,0
-Mammuthus sp. Bechan Cave,1975613,HBA,0
-Mammuthus sp. Bechan Cave,1975613,D,0
-Mammuthus sp. Bechan Cave,1975613,MB,0
-Mammuthus sp. Bechan Cave,1975613,MAPR,0
+Species,Gene,Count
+Mammuthus columbi,ND5,7
+Mammuthus columbi,ND2,6
+Mammuthus columbi,ATP6,5
+Mammuthus columbi,ND3,5
+Mammuthus columbi,ND4,5
+Mammuthus columbi,COX1,4
+Mammuthus columbi,CYTB,4
+Mammuthus columbi,COX2,3
+Mammuthus columbi,COX3,3
+Mammuthus columbi,ND4L,3
+Mammuthus columbi,ND1,2
+Mammuthus columbi,ND6,2
+Mammuthus columbi,ATP8,1
+Mammuthus exilis,COX3,2
+Mammuthus exilis,ATP6,1
+Mammuthus exilis,ATP8,1
+Mammuthus exilis,COX1,1
+Mammuthus exilis,COX2,1
+Mammuthus exilis,CYTB,1
+Mammuthus exilis,ND1,1
+Mammuthus exilis,ND2,1
+Mammuthus exilis,ND3,1
+Mammuthus exilis,ND4,1
+Mammuthus exilis,ND4L,1
+Mammuthus exilis,ND5,1
+Mammuthus exilis,ND6,1
+Mammuthus jeffersonii,ND5,2
+Mammuthus jeffersonii,ATP6,1
+Mammuthus jeffersonii,COX2,1
+Mammuthus jeffersonii,CYTB,1
+Mammuthus jeffersonii,ND3,1
+Mammuthus jeffersonii,ND4,1
+Mammuthus primigenius,CYTB,90
+Mammuthus primigenius,ND5,78
+Mammuthus primigenius,ND4,71
+Mammuthus primigenius,ND2,70
+Mammuthus primigenius,ATP6,69
+Mammuthus primigenius,COX1,65
+Mammuthus primigenius,COX3,62
+Mammuthus primigenius,ND1,62
+Mammuthus primigenius,COX2,61
+Mammuthus primigenius,ND6,55
+Mammuthus primigenius,ND3,49
+Mammuthus primigenius,ND4L,35
+Mammuthus primigenius,no gene,24
+Mammuthus primigenius,ATP8,22
+Mammuthus primigenius,MAPR-DQA,9
+Mammuthus primigenius,CYT B,2
+Mammuthus primigenius,A2AB,1
+Mammuthus primigenius,CYTOCHROME B,1
+Mammuthus primigenius,D,1
+Mammuthus primigenius,FGF5,1
+Mammuthus primigenius,HBA-T2,1
+Mammuthus primigenius,IRBP,1
+Mammuthus primigenius,LEPR,1
+Mammuthus primigenius,MB,1
+Mammuthus primigenius,MC1R,1
+Mammuthus primigenius,MT-ATP6,1
+Mammuthus primigenius,MT-ATP8,1
+Mammuthus primigenius,MT-CO1,1
+Mammuthus primigenius,MT-CO2,1
+Mammuthus primigenius,MT-CYB,1
+Mammuthus primigenius,MT-ND1,1
+Mammuthus primigenius,MT-ND2,1
+Mammuthus primigenius,MT-ND3,1
+Mammuthus primigenius,MT-ND4,1
+Mammuthus primigenius,MT-ND4L,1
+Mammuthus primigenius,MT-ND5,1
+Mammuthus primigenius,MT-ND6,1
+Mammuthus primigenius,VWF,1
+Mammuthus sp.,CYTB,26
+Mammuthus sp.,ND5,26
+Mammuthus sp.,ATP6,23
+Mammuthus sp.,ND4,22
+Mammuthus sp.,COX2,20
+Mammuthus sp.,COX3,20
+Mammuthus sp.,ND1,20
+Mammuthus sp.,ND2,19
+Mammuthus sp.,COX1,18
+Mammuthus sp.,ND3,18
+Mammuthus sp.,ND4L,16
+Mammuthus sp.,ND6,16
+Mammuthus sp.,ATP8,11
+Mammuthus sp.,no gene,1
+Mammuthus sp. Bechan Cave,ATP6,1
+Mammuthus sp. Bechan Cave,ATP8,1
+Mammuthus sp. Bechan Cave,COX1,1
+Mammuthus sp. Bechan Cave,COX2,1
+Mammuthus sp. Bechan Cave,COX3,1
+Mammuthus sp. Bechan Cave,CYTB,1
+Mammuthus sp. Bechan Cave,ND1,1
+Mammuthus sp. Bechan Cave,ND2,1
+Mammuthus sp. Bechan Cave,ND3,1
+Mammuthus sp. Bechan Cave,ND4,1
+Mammuthus sp. Bechan Cave,ND4L,1
+Mammuthus sp. Bechan Cave,ND5,1
+Mammuthus sp. Bechan Cave,ND6,1

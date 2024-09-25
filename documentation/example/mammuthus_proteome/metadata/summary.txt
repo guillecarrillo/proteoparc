@@ -1,25 +1,29 @@
-## METADATA for the database './mammuthus_proteome/mammuthus_proteome_database.fasta'
-27/07/2023 - 16:50:13
+## METADATA for the database /Users/user1/databases/mammuthus_proteome/mammuthus_proteome_database.fasta
+TaxID: 37348
+25/09/2024 - 15:43:43
+
+# DISCLAIMER
+Information present in metadata files can be underestimated due to UniParc's non-redundant architecture. Evolutionarily conserved proteins will appear only once in UniParc, which biases the number of species recovered. This is also the case for two proteins present in different repositories, as the metadata information will be merged in one UniParc record. That is why we recommend the user to take the metadata information as the minimum knowledge of the database.
 
 # WARNINGS
 Check gene names (GN=)
 
 # Stats about the protein records
-records: 1188
-records_with_gene: 1163/1188
-records_with_taxname: 1188/1188
-records_with_taxid: 1188/1188
-all_records_path: ./mammuthus_proteome/metadata/records_info.csv
+records: 1186
+records_with_gene: 1161/1186
+records_with_taxname: 1186/1186
+records_with_taxid: 1186/1186
+all_records_path: /Users/user1/databases/mammuthus_proteome/metadata/records_info.csv
 
-# Stats about the employed databases
-databases_employed: 5
-databases_employed_path: ./mammuthus_proteome/metadata/databases_employed.csv
+# Stats about the employed repositories
+repositories_employed: 5
+repositories_employed_path: /Users/user1/databases/mammuthus_proteome/metadata/repositories_employed.csv
 
 # Stats about the genes found
-genes_retrieved: 26
-genes_retrieved_path: ./mammuthus_proteome/metadata/genes_retrieved.csv
+genes_retrieved: 37
+genes_retrieved_path: /Users/user1/databases/mammuthus_proteome/metadata/genes_retrieved.csv
 
 # Stats about the species in the database
 species_retrieved: 6
-species_retrieved_path: ./mammuthus_proteome/metadata/species_retrieved.csv
-species_and_genes_path: ./mammuthus_proteome/metadata/species_genes.csv
+species_retrieved_path: /Users/user1/databases/mammuthus_proteome/metadata/species_retrieved.csv
+species_and_genes_path: /Users/user1/databases/mammuthus_proteome/metadata/species_genes.csv
