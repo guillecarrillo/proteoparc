@@ -14,7 +14,7 @@
 
 ## Set-up
 
-To **download ProteoParc,** navigate through the terminal ([change directory](https://www.cyberciti.biz/faq/how-to-change-directory-in-linux-terminal/)) to the folder you want to store the pipeline. Then, type `git clone` the GitHub repository as it is shown in the next command.
+To **download ProteoParc,** navigate through the terminal ([change directory](https://www.cyberciti.biz/faq/how-to-change-directory-in-linux-terminal/)) to the folder you want to store the pipeline. Then, clone the GitHub repository as it is shown in the next command.
 
 ``` bash
 cd /Users/user_name/Documents/software # This path is an example
@@ -31,8 +31,8 @@ conda env create -f .set_up.yml # This action can take some minutes
 This environment has all the package requirements to run the pipeline. If the previous command **brings an error**, try to install each package from scratch as it is shown below.
 
 ``` bash
-conda create -n proteoparc python=3.12.3
-conda activate proteoparc
+conda create -n proteoparc-v1.1 python=3.12.3
+conda activate proteoparc-v1.1
 
 # Bioconda and python modules
 conda install bioconda::mafft==7.525
@@ -50,7 +50,7 @@ conda install conda-forge::r-tidyr==1.3.1
 The conda environment must be activated each time before running ProteoParc. If it is not, type the following command in the terminal:
 
 ``` bash
-conda activate proteoparc
+conda activate proteoparc-v1.1
 ```
 
 ## Execution time! Make it simple
