@@ -1,4 +1,4 @@
-name: proteoparc-v1.1
+name: proteoparc-v1.2
 channels:
   - conda-forge
   - bioconda
@@ -16,3 +16,4 @@ dependencies:
       - bio==1.7.1
       - pandas==2.2.2
       - requests==2.32.3
+      - requests_futures==1.0.2
