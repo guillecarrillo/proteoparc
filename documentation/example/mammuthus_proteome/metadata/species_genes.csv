@@ -1,17 +1,24 @@
 Species,Gene,Count
-Mammuthus columbi,ND5,7
-Mammuthus columbi,ND2,6
+Mammuthus columbi,ND5,8
+Mammuthus columbi,ND2,7
+Mammuthus columbi,ND3,6
+Mammuthus columbi,ND4,6
 Mammuthus columbi,ATP6,5
-Mammuthus columbi,ND3,5
-Mammuthus columbi,ND4,5
 Mammuthus columbi,COX1,4
 Mammuthus columbi,CYTB,4
 Mammuthus columbi,COX2,3
 Mammuthus columbi,COX3,3
+Mammuthus columbi,ND1,3
 Mammuthus columbi,ND4L,3
-Mammuthus columbi,ND1,2
 Mammuthus columbi,ND6,2
 Mammuthus columbi,ATP8,1
+Mammuthus columbi,MT-ATP6,1
+Mammuthus columbi,MT-ATP8,1
+Mammuthus columbi,MT-CO1,1
+Mammuthus columbi,MT-CO2,1
+Mammuthus columbi,MT-CYB,1
+Mammuthus columbi,MT-ND4L,1
+Mammuthus columbi,MT-ND6,1
 Mammuthus exilis,COX3,2
 Mammuthus exilis,ATP6,1
 Mammuthus exilis,ATP8,1
@@ -25,25 +32,34 @@ Mammuthus exilis,ND4,1
 Mammuthus exilis,ND4L,1
 Mammuthus exilis,ND5,1
 Mammuthus exilis,ND6,1
+Mammuthus jeffersonii,ND3,2
+Mammuthus jeffersonii,ND4,2
 Mammuthus jeffersonii,ND5,2
 Mammuthus jeffersonii,ATP6,1
 Mammuthus jeffersonii,COX2,1
 Mammuthus jeffersonii,CYTB,1
-Mammuthus jeffersonii,ND3,1
-Mammuthus jeffersonii,ND4,1
-Mammuthus primigenius,CYTB,90
+Mammuthus jeffersonii,MT-ATP6,1
+Mammuthus jeffersonii,MT-ATP8,1
+Mammuthus jeffersonii,MT-CO1,1
+Mammuthus jeffersonii,MT-CO2,1
+Mammuthus jeffersonii,MT-CYB,1
+Mammuthus jeffersonii,MT-ND4L,1
+Mammuthus jeffersonii,MT-ND6,1
+Mammuthus jeffersonii,ND1,1
+Mammuthus jeffersonii,ND2,1
+Mammuthus primigenius,CYTB,91
 Mammuthus primigenius,ND5,78
-Mammuthus primigenius,ND4,71
+Mammuthus primigenius,ND4,73
+Mammuthus primigenius,ATP6,71
 Mammuthus primigenius,ND2,70
-Mammuthus primigenius,ATP6,69
 Mammuthus primigenius,COX1,65
+Mammuthus primigenius,ND1,63
 Mammuthus primigenius,COX3,62
-Mammuthus primigenius,ND1,62
 Mammuthus primigenius,COX2,61
 Mammuthus primigenius,ND6,55
 Mammuthus primigenius,ND3,49
 Mammuthus primigenius,ND4L,35
-Mammuthus primigenius,no gene,24
+Mammuthus primigenius,no gene,25
 Mammuthus primigenius,ATP8,22
 Mammuthus primigenius,MAPR-DQA,9
 Mammuthus primigenius,CYT B,2
@@ -54,7 +70,6 @@ Mammuthus primigenius,FGF5,1
 Mammuthus primigenius,HBA-T2,1
 Mammuthus primigenius,IRBP,1
 Mammuthus primigenius,LEPR,1
-Mammuthus primigenius,MB,1
 Mammuthus primigenius,MC1R,1
 Mammuthus primigenius,MT-ATP6,1
 Mammuthus primigenius,MT-ATP8,1
@@ -69,19 +84,27 @@ Mammuthus primigenius,MT-ND4L,1
 Mammuthus primigenius,MT-ND5,1
 Mammuthus primigenius,MT-ND6,1
 Mammuthus primigenius,VWF,1
+Mammuthus sp.,ND5,28
 Mammuthus sp.,CYTB,26
-Mammuthus sp.,ND5,26
 Mammuthus sp.,ATP6,23
-Mammuthus sp.,ND4,22
+Mammuthus sp.,ND4,23
+Mammuthus sp.,ND1,21
+Mammuthus sp.,ND2,21
 Mammuthus sp.,COX2,20
 Mammuthus sp.,COX3,20
-Mammuthus sp.,ND1,20
-Mammuthus sp.,ND2,19
-Mammuthus sp.,COX1,18
-Mammuthus sp.,ND3,18
+Mammuthus sp.,COX1,19
+Mammuthus sp.,ND3,19
 Mammuthus sp.,ND4L,16
 Mammuthus sp.,ND6,16
 Mammuthus sp.,ATP8,11
+Mammuthus sp.,MT-ATP6,1
+Mammuthus sp.,MT-ATP8,1
+Mammuthus sp.,MT-CO1,1
+Mammuthus sp.,MT-CO2,1
+Mammuthus sp.,MT-CYB,1
+Mammuthus sp.,MT-ND4L,1
+Mammuthus sp.,MT-ND5,1
+Mammuthus sp.,MT-ND6,1
 Mammuthus sp.,no gene,1
 Mammuthus sp. Bechan Cave,ATP6,1
 Mammuthus sp. Bechan Cave,ATP8,1

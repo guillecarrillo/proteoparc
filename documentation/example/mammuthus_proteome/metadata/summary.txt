@@ -1,29 +1,29 @@
-## METADATA for the database /Users/user1/databases/mammuthus_proteome/mammuthus_proteome_database.fasta
+## METADATA for the database /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/mammuthus_proteome/mammuthus_proteome_database.fasta
 TaxID: 37348
-25/09/2024 - 15:43:43
-
-# DISCLAIMER
-Information present in metadata files can be underestimated due to UniParc's non-redundant architecture. Evolutionarily conserved proteins will appear only once in UniParc, which biases the number of species recovered. This is also the case for two proteins present in different repositories, as the metadata information will be merged in one UniParc record. That is why we recommend the user to take the metadata information as the minimum knowledge of the database.
+13/08/2025 - 12:17:11
 
 # WARNINGS
 Check gene names (GN=)
 
+# DISCLAIMER
+Each record can be associated with multiple repositories and/or species. As a result, the total number of repositories or species may exceed the number of records, and should not be interpreted as a one-to-one correspondence
+
 # Stats about the protein records
 records: 1186
-records_with_gene: 1161/1186
+records_with_gene: 1160/1186
 records_with_taxname: 1186/1186
 records_with_taxid: 1186/1186
-all_records_path: /Users/user1/databases/mammuthus_proteome/metadata/records_info.csv
+all_records_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/mammuthus_proteome/metadata/records_info.csv
 
 # Stats about the employed repositories
-repositories_employed: 5
-repositories_employed_path: /Users/user1/databases/mammuthus_proteome/metadata/repositories_employed.csv
+repositories_employed: 16
+repositories_employed_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/mammuthus_proteome/metadata/repositories_employed.csv
 
 # Stats about the genes found
-genes_retrieved: 37
-genes_retrieved_path: /Users/user1/databases/mammuthus_proteome/metadata/genes_retrieved.csv
+genes_retrieved: 36
+genes_retrieved_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/mammuthus_proteome/metadata/genes_retrieved.csv
 
 # Stats about the species in the database
 species_retrieved: 6
-species_retrieved_path: /Users/user1/databases/mammuthus_proteome/metadata/species_retrieved.csv
-species_and_genes_path: /Users/user1/databases/mammuthus_proteome/metadata/species_genes.csv
+species_retrieved_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/mammuthus_proteome/metadata/species_retrieved.csv
+species_and_genes_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/mammuthus_proteome/metadata/species_genes.csv

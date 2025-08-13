@@ -63,13 +63,13 @@ def parser():
     
     #OUTPUT
     - input_file_path (string); The path to the input multi-fasta database
-    - output_folder_path (string); The path to a folder where the results will be stored.
-    - output_fasta_name (string); The name of the filtered multi-fasta database.
+    - output_path (string); The directory path to write the results folder.
+    - output_folder_name (string); The name of the folder to store the results.
     """
     # Set the arguments to run the program from the command line (parser)
     parser = argparse.ArgumentParser(description="This script removes duplicate and fragmentary sequences between records in a multi-fasta")
     parser.add_argument("--input-path", dest="input_path", type=str, help="The path to the input multi-fasta file", required=True, nargs=1)
-    parser.add_argument("--output-path", dest="output_path", type=str, help="The path to write the results folder (default: working directory)", required=False, default=["."],  nargs=1)
+    parser.add_argument("--output-path", dest="output_path", type=str, help="The directory path to write the results folder (default: working directory)", required=False, default=["."],  nargs=1)
     parser.add_argument("--output-folder-name", dest="output_folder_name", type=str, help="The name of the folder to store the results (default: fasta_remove_redundancy)", required=False, default=["fasta_remove_redundancy"], nargs=1)
 
     args = parser.parse_args()

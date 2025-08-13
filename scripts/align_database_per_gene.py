@@ -12,7 +12,8 @@ __email__ = "guillermo.carrillo@upf.edu"
 """
 This script generates an aligned multi-fasta file per each different gene name present
 in a multi-fasta. To do so, the header format should indicate the gene name before 
-the string "GN=". mafft v7.525 has been to choosen to build each alignment.
+the string "GN=". mafft v7.525 has been to choosen to build each alignment, under the
+--auto parameter.
 """
 
 def main():
@@ -101,7 +102,7 @@ def multi_fasta_aligner(multi_fasta_path):
     #INPUT
     - multi_fasta_path (string); The path to the multi-fasta file.
     #WRITE OUTPUT
-    - {input_name}_aligned.fasta; An aligned multi-fasta file in mafft alignment format.
+    - {gene}_aligned.fasta; An aligned multi-fasta file in mafft alignment format.
     """
 
     alignment_path = multi_fasta_path.replace(".temp", "_aligned.fasta")

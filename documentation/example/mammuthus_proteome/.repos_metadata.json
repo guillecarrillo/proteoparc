@@ -1,0 +1,4934 @@
+{
+    "UPI000005D636": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0000086E61": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0000087483": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000016D52E": [
+        "EMBL"
+    ],
+    "UPI0000128A36": [
+        "UniProtKB/Swiss-Prot",
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI000008D4D0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0000088238": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00003FF725": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000016D68D": [
+        "EMBL",
+        "PRF"
+    ],
+    "UPI000016D5A9": [
+        "EMBL"
+    ],
+    "UPI0000086FF2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000016D6CC": [
+        "EMBL"
+    ],
+    "UPI000016D5AC": [
+        "EMBL"
+    ],
+    "UPI00001D4685": [
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI00005CA244": [
+        "UniProtKB/Swiss-Prot",
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI00005CA247": [
+        "UniProtKB/Swiss-Prot",
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI00005CA245": [
+        "UniProtKB/Swiss-Prot",
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI00005CA248": [
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI00005CA246": [
+        "UniProtKB/Swiss-Prot",
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI00003FF72A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00005CA24C": [
+        "UniProtKB/Swiss-Prot",
+        "RefSeq",
+        "PRF",
+        "EMBL"
+    ],
+    "UPI000053F89A": [
+        "UniProtKB/Swiss-Prot"
+    ],
+    "UPI00005CA242": [
+        "UniProtKB/Swiss-Prot",
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI000009515B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00005CA24B": [
+        "UniProtKB/Swiss-Prot",
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI0000695F07": [
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI0000695F06": [
+        "EMBL"
+    ],
+    "UPI00005CA243": [
+        "UniProtKB/Swiss-Prot",
+        "RefSeq",
+        "PRF",
+        "EMBL"
+    ],
+    "UPI0000695F04": [
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI0000695F05": [
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI0000695F0A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00006BFF52": [
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI0000DB177D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00005CA24A": [
+        "UniProtKB/Swiss-Prot",
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI00005CA249": [
+        "RefSeq",
+        "PRF",
+        "EMBL"
+    ],
+    "UPI0000695F08": [
+        "UniProtKB/Swiss-Prot",
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0000695F09": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0000E6AD34": [
+        "UniProtKB/Swiss-Prot",
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI00006BFF51": [
+        "UniProtKB/Swiss-Prot",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI00005CA24D": [
+        "UniProtKB/Swiss-Prot",
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL",
+        "PRF"
+    ],
+    "UPI0000E6AD33": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0000DB6943": [
+        "UniProtKB/Swiss-Prot",
+        "EMBL"
+    ],
+    "UPI0001566005": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0000E6AD32": [
+        "UniProtKB/Swiss-Prot",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI0001566051": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0000DB6942": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001565F01": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1319": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001565EAC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1347": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1348": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1318": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1345": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1364": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001565F1C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1365": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1367": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1346": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D13A4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D131A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000162F0A6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000162F0A7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D13A3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E21": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E20": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000162F0A8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000162F0A9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000162F0AA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E1F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E2E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E32": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E33": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D132B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00015D1366": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E2D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E31": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E34": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E2F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E30": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E3C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E39": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E3A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E3E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E36": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E37": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E3B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E35": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E40": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E3F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E3D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E45": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E46": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00017FB6AF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E47": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00017FB6AD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B53": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B54": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001768E38": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00017FB6B1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00017FB6B2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00017FB6AE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000195FA4D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00017FB6B0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B57": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B56": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B59": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B5E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B5D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B5C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B5B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001963B55": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001C3E6B8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001CCB2B8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001CCB2B7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001B96E9F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00020CBA96": [
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI0001963B5A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001AAFBAB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001AAFBAC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0001DA3B8A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00020CBAC3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00020CBAC4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00020CBA99": [
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI0002528417": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000259F50C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00020CBA97": [
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI000351DD34": [
+        "UniProtKB/TrEMBL",
+        "EMBL",
+        "KIPO"
+    ],
+    "UPI00029722FB": [
+        "PDB"
+    ],
+    "UPI0003B068E0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00029722DD": [
+        "PDB"
+    ],
+    "UPI00020CBA98": [
+        "UniProtKB/TrEMBL",
+        "RefSeq",
+        "EMBL"
+    ],
+    "UPI0003B061C5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00020CBAC2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B09C9B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00020CBA9A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B0688D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B0E714": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B0E579": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000351D59B": [
+        "KIPO"
+    ],
+    "UPI0003B091E7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007C5FB6F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B07FC3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B0BDA8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B0FE0F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007C6009A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007C608B7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B0EA23": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B108D6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007C60FF7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007C6107A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007C61040": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007C60086": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007C5FC5D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCBAB7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCB9EC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCBAD0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCBBED": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0003B1085B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCC2A3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007C603C3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCC312": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCB8E8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCC685": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCBBFE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCB9C7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCBB1D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCBCFB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCCBB6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCCBB9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCCE48": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCC59A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD071": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCCAB1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCC63F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCCA4A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD101": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD22F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD083": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD4FF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD623": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD290": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCCBFE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCCE3A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD6D4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDBE6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD972": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDA37": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDC83": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD839": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDE45": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDF2C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE215": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCD7A2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDD52": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDC5A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE40D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE179": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDC21": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDCDD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCDEBC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE8EC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE436": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE773": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE6BD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE891": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE796": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE496": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCEC7B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE987": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCEED7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCEAD8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCEC47": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCEBE9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCE8F0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCEC27": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCF03A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCF20C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCEF2B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCF47C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCF018": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCF20F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCF370": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCF4CD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCF898": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCFCC5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCFE04": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCFE9D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCFF1F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD00F3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCFD68": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCF861": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD042F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD03E8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD02DF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0493": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD025A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0133": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DCFDFA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD08E7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0B77": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0A2E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0B96": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0AAD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0A15": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0F7C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0B3A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0BA9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD1660": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0F3C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD13F3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0A80": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD171A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD187D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0C84": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0E72": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD1CF7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD0BD9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD1E8E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD1CAA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD1246": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD1E7F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2124": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD215F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD203A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD230B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD1FF5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD1F1A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD1FF4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD267A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD21DC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD18DC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2400": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD284E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD26AD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD19E6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2763": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2854": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2520": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3191": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3247": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD24EC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD31F3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2E4E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2A00": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2317": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2ADB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD2EA7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3864": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD38A8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3743": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD36B5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3583": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3771": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD36B7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD360E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD38C8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3DA8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD340B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD39C9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD39EA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3CF4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3E6E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD40BA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4098": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD43F4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4411": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD419C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD437E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3EF5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD416F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD3D5F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD462C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD45B4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD44A7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4A4A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4A39": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4A49": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4C2F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD44D5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5161": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD501D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4F38": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD533A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5271": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4DEA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4D12": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD4581": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD53B6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD55BE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5438": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5490": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5868": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD57DC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5691": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD565E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD58EA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5896": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5CCC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5CA8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5D84": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5B93": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5A1A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5EDC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD60F7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD64DD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5EAA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD628A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD6390": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5A59": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD643F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD6872": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD6A06": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD6635": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD6C5C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD65A8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD6CFC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD6EB2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD6B54": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD5AA6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD723C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD71CA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD69F1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7539": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7191": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD71C2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD6FE3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7516": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD795B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7A43": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD78E6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7783": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD76BC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD74DA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD786C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7B69": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7FEA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7CA1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7D0C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7D05": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7BED": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7BEE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7CBE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD7B77": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8706": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8798": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8838": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD803F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD865F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8650": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD84CC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD812C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8C23": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD897E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8948": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8CB4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD89B4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8D48": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8D20": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8F59": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD950E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD9255": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8F19": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD935C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD92B0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8EA6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD9668": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD96CA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD9969": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD96A8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD979C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD9949": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD9F3D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD9F62": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8F77": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD9EC6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDA614": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDA375": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDA47F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDA608": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD9F6F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD8FF4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DD976E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDA705": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDAABE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDAE38": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDA440": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDA7BE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDA720": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB2B3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDAF00": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDAD29": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB0D1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB03F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDAF5B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB3A1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDAEF3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB15B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB3B0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB5AA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDBA2E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB67C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB7BB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDBAC0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDBA67": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDBB49": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDB9D2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC05A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC381": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDBA24": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDBB9C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC3A9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC205": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC0D7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC259": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC335": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC3CC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC836": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCAA8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC654": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC422": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC45E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC49D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDC5DC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCEEF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCCC4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCDE7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCDBE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCFB9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCF4D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCEE3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCD07": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD018": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD357": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD052": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD424": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDCFBD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD443": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD1A3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD315": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD591": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD7A8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD54D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD447": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD7FD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD2FB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD7FE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDD551": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDDFC1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDDF96": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDDADE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE4AF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDDC24": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE846": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE08D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDDF7C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE115": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE880": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE039": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE92B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDECAA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDEE75": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE19B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDEE90": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDEF6B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDEF1C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDED22": [
+        "EMBL"
+    ],
+    "UPI0007DDE7A8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE891": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDE759": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDEE82": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDEF6A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF260": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF108": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDEF94": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF5E4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF11A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF127": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF36B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDEF88": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF3E2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF925": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF634": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF644": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF7BF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDFAED": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF7CE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE02BE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDFBD5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE03CA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF875": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE006D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF816": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE037E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDFB37": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDF975": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0A2C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE088C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE05CB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0AE1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE067D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE07EB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0718": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0B17": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0BC2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0989": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0D62": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0B90": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0CDA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DDFF10": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0B40": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0DCE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0F1A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0DDC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0F45": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1419": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1351": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE0F7D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1067": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE11B4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE15D9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE15F3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1711": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE16D0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE15C1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1596": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1445": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1457": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE196E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1911": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1830": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1733": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1A4F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1891": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1A10": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1C3C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE185F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1E7B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1843": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE2024": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1D2F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1B5E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1CFB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE2175": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE25BC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE215A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1DFC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE26DF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1B97": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE27E8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE1F61": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE26CF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE239F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE2B91": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE30AE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE202C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE27E4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE3417": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE274F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE34FF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1AD30": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009021CCA": [
+        "EPO",
+        "JPO",
+        "KIPO"
+    ],
+    "UPI0007DE314D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE2B8C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0008028AB9": [
+        "UniProtKB/TrEMBL"
+    ],
+    "UPI0009C1B0BE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0007DE2DCB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1B5D6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1AD81": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000902941D": [
+        "EPO",
+        "JPO",
+        "KIPO"
+    ],
+    "UPI0007DE3523": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1BC13": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1BCB8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1B239": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1CAA1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1D197": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1C58C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1BB09": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1B3B4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1B3CC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1CB66": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1C684": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1CFF9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1E0C4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1E72F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1D9BA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1DD6E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1D256": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1EB13": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1EEFA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1FBB6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1E7E6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1D1D3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1FC0B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1F52F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1F56D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1FE2B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1E736": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1EC46": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1FFE8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2070C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C202D7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C20091": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C1FD99": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C205CA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C202EC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2101B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C20C07": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C219B0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C21A37": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C21682": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C20495": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C22455": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C20E4A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C22B3E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2079F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C23195": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2334D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2121D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C219B3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C22BDB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C236E5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C21F99": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C223E7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C24001": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2423E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C240B0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C22878": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C23CB0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C23351": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C24F34": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2432D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C24285": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2546C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C259B3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C25439": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C25019": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C24A84": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C24D05": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C25C09": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2555E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C26837": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C25EA8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C251A6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C25B70": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C25C12": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C26B6F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C26B1E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C26D19": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C26975": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C26F72": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C26F5F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C26F61": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C26FA1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C27441": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C27A59": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C27DCB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C27E9B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C280C5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C27324": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C276C0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C28492": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2898D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C27E64": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C28754": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C28339": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2876D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C27244": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C28BB0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C27372": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C28EC3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C28F84": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C29412": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C290CD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2A289": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C29D1E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2A376": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C28DF9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2983A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2AB8C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C28DD8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2AB9D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2AF74": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2B11B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2A427": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2B141": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2B2EB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2B916": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2AA4C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2A324": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2B48D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2A470": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2B9CD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2AB56": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2B720": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2C1E0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2BEFF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2C1DF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2BE6C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2BA06": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2CB44": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2CBC9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2CF7E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2BDF9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2C601": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2BE87": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2C45A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2CC7F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2C523": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2C622": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2D4E0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2D627": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2DDB8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2D42F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2D300": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2CF81": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2D663": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2DF7E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2DE70": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2DAE0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2D81F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2E22F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2E0BA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2E183": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2E50A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2ED52": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2E5AC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2F250": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2F471": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2EFE8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2ECC4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2F0AD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2F545": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2D952": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2F5D6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30521": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2FB58": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30561": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3001A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C303A1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30574": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C2DEDE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30CCB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30B25": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30D6F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30454": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30AC4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30E8C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C30B43": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C31E53": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C320A3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C31699": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C31FC2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C31421": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C312D7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C321BA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3171F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3171D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C329EB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C31FB6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C325E9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C32C4C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C32295": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C32494": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C32887": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C32AB8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C32E63": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C33693": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3307E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3376C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C336DE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C324C5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C33A9B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C32DB1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C34131": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C33E3B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C32F3D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C341D4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C33E4C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C32FA1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3429D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C33E75": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C35061": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C35562": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C34855": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C35954": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C34488": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C34BC3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3394B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3502C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C35FC0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C35F01": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C35D80": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C36204": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C36434": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C35961": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C366E8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C35E4E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C36E6A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3746E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C36C11": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C36C2B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3685A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C368AF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C36C56": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3802F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C36EFE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C36CC9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C38564": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C37D51": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3860D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C37A82": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3777A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C38216": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C37AE4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C38793": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C39153": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3913E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C38C6F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C38FF7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C390F7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C392A9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C39722": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C39634": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3980C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C394A7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C392EB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C39BA2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3996D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C39594": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3B600": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3B74D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C39597": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3A09C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C39DE7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3BB62": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3A8E0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3BE39": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3BA4C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3C15F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3BDBE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3C162": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3BFFC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3A91B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3ACB6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3BDA8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3C3D1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3C270": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3CC6E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3CA7E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3CD67": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3BC47": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3CC92": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3C5E9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3D2BD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3CD94": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3D1C5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3CFEA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3D750": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3DCD4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3CD66": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3D634": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E0FECB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E0F6C0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3D4D9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E0FFF9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E0EC2D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E0EF30": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E100A2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E1356D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009C3DEF5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28D00F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E14608": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E12B8E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E12C8F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E12037": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28DB5C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E13C70": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0009E103E1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28E4F7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28D98D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28D583": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28D632": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28E667": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28DE4B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28D814": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28EA21": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28ECF3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28FD08": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28EF6F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28EE74": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28FC1E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28ED4B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28E674": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2900C6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E290802": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2901DF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E290833": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E28EBA9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E290545": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E290514": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E290748": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E291432": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E291C26": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2917D4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E291B0E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E292894": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2929DD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2916E3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E293122": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29325A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E292A83": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29392F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E293C2A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2914DD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E293430": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2925ED": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29355A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E294007": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E293FBD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2944DD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E293F34": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2943E1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2931BD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2919C0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E294C48": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E293F0F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29543E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E294C0D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29498A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E294CE2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E294CDE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2951DC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E295295": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E296CBB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29527C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2968F8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2965AC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2965C8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E296CC3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2971CD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29683B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E297355": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29750A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E297E26": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E296D1C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E296D89": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E295BF5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2983E4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29850E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2992C9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2984B7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2988B0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E297E81": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E298919": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E295CC7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2973F6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E299786": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29988D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E2996F3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E299087": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29A425": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29A103": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29A940": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E299A8C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E299D3E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29B698": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29ABE7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29B6C4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29A1F2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E299FDB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29A9C3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29A6B4": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29B75E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29C1FD": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29D09C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29BAA6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29BEB5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29C381": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29D549": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29C003": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29D374": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29EC89": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29C1B7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29D89A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29E576": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29E248": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29C236": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29DFB9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29CDD3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29EDA7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29EDB6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29F86A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0BE519": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29EEF2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0BF4F9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0BE6CE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0BF722": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0BF599": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0BFC4C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000E29F603": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C0D3C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C09BA": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C117D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C1559": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C1090": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C1F60": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C1970": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C2532": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C342D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C1907": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C174E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C2A0B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C3BB5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C4E2D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C37A9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C3C8C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C31C6": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C4784": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C45F5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C4E93": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C3213": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C5D3D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C5EF8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C5769": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C6E71": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C5B2B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C4FEF": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C612B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C7F3E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C7B94": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C6287": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C8851": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C6E76": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C82E3": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C813E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C6086": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C8257": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C9976": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C94B9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C8F50": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C8AD2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C897E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C9C4D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C9FD7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C5943": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CA39D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CABE7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C9BA5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CA171": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C9FFB": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CA653": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0C9CD7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CA235": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CB09B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CB3F1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CB675": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CB5B7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CBD94": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CBDA8": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CAD52": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CAC59": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CD2DC": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CAC6B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CBF21": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CC08D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CC0A0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CE2B1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CCD90": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CCF2E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CEE1D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CD634": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CF746": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CEF4C": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CF742": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CED3F": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CEA42": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CF71E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D0527": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D078A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CFB1B": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D0343": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D00D5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CFEAE": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0CF82A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D07F1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D08D5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D1317": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0018A35282": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D0A28": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D1823": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI00129FC77A": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D0FC2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0018A3B9A1": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0018A54F72": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0018A5D2B7": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D1AD0": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI000F0D15F9": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI001BED4490": [
+        "EMBL"
+    ],
+    "UPI0018A63342": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0018A59F0E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI0018A41B9D": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI001BEDA88F": [
+        "EMBL"
+    ],
+    "UPI001BED510A": [
+        "EMBL"
+    ],
+    "UPI001BED82C5": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI001BEDC147": [
+        "EMBL"
+    ],
+    "UPI001BED5D58": [
+        "EMBL"
+    ],
+    "UPI001BEDC356": [
+        "EMBL"
+    ],
+    "UPI001BED4D99": [
+        "EMBL"
+    ],
+    "UPI001BED9002": [
+        "EMBL"
+    ],
+    "UPI001BEDEF49": [
+        "EMBL"
+    ],
+    "UPI001BEE1171": [
+        "EMBL"
+    ],
+    "UPI001BEDFB8D": [
+        "EMBL"
+    ],
+    "UPI001BEE0AF2": [
+        "EMBL"
+    ],
+    "UPI001BEE13D1": [
+        "EMBL"
+    ],
+    "UPI001BEE2823": [
+        "EMBL"
+    ],
+    "UPI001BEDC39F": [
+        "EMBL"
+    ],
+    "UPI001BEDDA3E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI001BEDFCD7": [
+        "EMBL"
+    ],
+    "UPI001BEE23CC": [
+        "EMBL"
+    ],
+    "UPI001BEE3B8B": [
+        "EMBL"
+    ],
+    "UPI001BEE1755": [
+        "EMBL"
+    ],
+    "UPI001BEE2E67": [
+        "EMBL"
+    ],
+    "UPI001BEE3C35": [
+        "EMBL"
+    ],
+    "UPI001BEDD175": [
+        "EMBL"
+    ],
+    "UPI001BEE4E14": [
+        "EMBL"
+    ],
+    "UPI001BEE661A": [
+        "EMBL"
+    ],
+    "UPI001BEE78C8": [
+        "EMBL"
+    ],
+    "UPI001BEEA046": [
+        "EMBL"
+    ],
+    "UPI001BEE9675": [
+        "EMBL"
+    ],
+    "UPI001BEE7948": [
+        "EMBL"
+    ],
+    "UPI001BEE8997": [
+        "EMBL"
+    ],
+    "UPI001BEE67D1": [
+        "EMBL"
+    ],
+    "UPI001BEE8C78": [
+        "EMBL"
+    ],
+    "UPI001BEEA976": [
+        "EMBL"
+    ],
+    "UPI001BEEA8C1": [
+        "EMBL"
+    ],
+    "UPI001BEE96CE": [
+        "EMBL"
+    ],
+    "UPI001BEEBDFE": [
+        "EMBL"
+    ],
+    "UPI001BEEB8E6": [
+        "EMBL"
+    ],
+    "UPI001BEEADFB": [
+        "EMBL"
+    ],
+    "UPI001BEEADA5": [
+        "EMBL"
+    ],
+    "UPI001BEEC14D": [
+        "EMBL"
+    ],
+    "UPI001BEEF58E": [
+        "EMBL"
+    ],
+    "UPI001BEECEF9": [
+        "EMBL"
+    ],
+    "UPI001BEEF9D0": [
+        "EMBL"
+    ],
+    "UPI001BEF084B": [
+        "EMBL"
+    ],
+    "UPI001BEF3110": [
+        "EMBL"
+    ],
+    "UPI001BEEDB61": [
+        "EMBL"
+    ],
+    "UPI001BEED633": [
+        "EMBL"
+    ],
+    "UPI001BEF27F0": [
+        "EMBL"
+    ],
+    "UPI001BEF4840": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI001BEF8AE2": [
+        "EMBL"
+    ],
+    "UPI001BEF35C9": [
+        "EMBL"
+    ],
+    "UPI001BEF7316": [
+        "EMBL"
+    ],
+    "UPI001BEF2AD0": [
+        "EMBL"
+    ],
+    "UPI001BEF6453": [
+        "EMBL"
+    ],
+    "UPI001BEEDF31": [
+        "EMBL"
+    ],
+    "UPI001BEF8E70": [
+        "EMBL"
+    ],
+    "UPI001BEF91F2": [
+        "EMBL"
+    ],
+    "UPI001BEFF937": [
+        "EMBL"
+    ],
+    "UPI001BEFF3DC": [
+        "EMBL"
+    ],
+    "UPI001BEFCB14": [
+        "EMBL"
+    ],
+    "UPI001BEF71FC": [
+        "EMBL"
+    ],
+    "UPI001BEFECC2": [
+        "EMBL"
+    ],
+    "UPI001BEFE267": [
+        "EMBL"
+    ],
+    "UPI001BEFC7FE": [
+        "EMBL"
+    ],
+    "UPI001BF03C4C": [
+        "EMBL"
+    ],
+    "UPI001BEFFB6E": [
+        "EMBL"
+    ],
+    "UPI001BF03C2D": [
+        "EMBL"
+    ],
+    "UPI001BF01706": [
+        "EMBL"
+    ],
+    "UPI001BF03111": [
+        "EMBL"
+    ],
+    "UPI001BF0663B": [
+        "EMBL"
+    ],
+    "UPI001BF019C8": [
+        "EMBL"
+    ],
+    "UPI001BF06ACD": [
+        "EMBL"
+    ],
+    "UPI001BF06FB1": [
+        "EMBL"
+    ],
+    "UPI001BF06FD7": [
+        "EMBL"
+    ],
+    "UPI001BF0423E": [
+        "EMBL"
+    ],
+    "UPI001BF044B2": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI001BF01935": [
+        "EMBL"
+    ],
+    "UPI001BF0152B": [
+        "EMBL"
+    ],
+    "UPI001BF051D3": [
+        "EMBL"
+    ],
+    "UPI001BF07BA8": [
+        "EMBL"
+    ],
+    "UPI001BF0796C": [
+        "EMBL"
+    ],
+    "UPI001BF07BD5": [
+        "EMBL"
+    ],
+    "UPI001BF0C455": [
+        "EMBL"
+    ],
+    "UPI001BF0CBC4": [
+        "EMBL"
+    ],
+    "UPI001BF0C5D8": [
+        "EMBL"
+    ],
+    "UPI001BF0D3AA": [
+        "EMBL"
+    ],
+    "UPI001BF0E535": [
+        "EMBL"
+    ],
+    "UPI001BF11AE0": [
+        "EMBL"
+    ],
+    "UPI001BF13106": [
+        "EMBL"
+    ],
+    "UPI001BF10D18": [
+        "EMBL"
+    ],
+    "UPI001BF11C77": [
+        "EMBL"
+    ],
+    "UPI001BF1458E": [
+        "UniProtKB/TrEMBL",
+        "EMBL"
+    ],
+    "UPI001BF12EFA": [
+        "EMBL"
+    ],
+    "UPI001BF0FFCD": [
+        "EMBL"
+    ],
+    "UPI001BF0EE81": [
+        "EMBL"
+    ],
+    "UPI001BF1027B": [
+        "EMBL"
+    ],
+    "UPI001BF06B62": [
+        "EMBL"
+    ],
+    "UPI001BF14350": [
+        "EMBL"
+    ],
+    "UPI001BF157EA": [
+        "EMBL"
+    ],
+    "UPI001BF15422": [
+        "EMBL"
+    ],
+    "UPI001BF15FB0": [
+        "EMBL"
+    ],
+    "UPI001BF172E7": [
+        "EMBL"
+    ],
+    "UPI001BF17860": [
+        "EMBL"
+    ],
+    "UPI001BF176D3": [
+        "EMBL"
+    ],
+    "UPI001E770716": [
+        "EMBL"
+    ],
+    "UPI001BF15E08": [
+        "EMBL"
+    ],
+    "UPI001BF17BB1": [
+        "EMBL"
+    ],
+    "UPI001E7D7170": [
+        "EMBL"
+    ],
+    "UPI001BF18456": [
+        "EMBL"
+    ]
+}

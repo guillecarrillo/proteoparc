@@ -10,14 +10,38 @@ library(dplyr, warn.conflicts = FALSE)
 library(tidyr, warn.conflicts = FALSE)
 
 # Parse the input database path
-species_genes_path <- normalizePath(commandArgs(trailingOnly = TRUE)[1]) # Input the species_genes.csv file
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) < 1 || length(args) > 2) {
+  stop("Usage: Rscript proteoparc_grid.R <species_genes.csv> [<gene_list.txt>]")
+}
+
+species_genes_path <- normalizePath(args[1]) # Input the species_genes.csv file
+if (length(args) == 2) {
+  gene_list_path <- args[2]  # user provided a path
+} else {
+  gene_list_path <- NULL  # no gene list provided
+}
+
+# Read files
 species_gene_df <- read.csv(species_genes_path)
 
-# Complete data frame with all possible combinations, setting count as 0
-species_gene_df <- species_gene_df %>% complete(Gene, Species, fill = list(Count = 0))
+if (is.null(gene_list_path)) { # If no gene list is provided, keep all genes from data frame
+  gene_list <- unique(species_gene_df$Gene)
+} else { # If gene list, read it as a vector of characters
+  gene_list <- readLines(gene_list_path)
+}
 
-# Remove the "no gene" records
+# Remove the "no gene" records from the gene list and the dataframe
+if ("no gene" %in% gene_list) {
+  gene_list <- gene_list[gene_list != "no gene"]
+}
+
 species_gene_df <- species_gene_df[species_gene_df$Gene != "no gene", ]
+
+# Complete data frame with all possible combinations, setting count as 0
+species_gene_df <- species_gene_df %>% complete(Gene = gene_list,
+                                                Species = unique(species_gene_df$Species), 
+                                                fill = list(Count = 0))
 
 # Create the presence or absence column 
 species_gene_df <- species_gene_df %>%
@@ -32,7 +56,7 @@ if (n_distinct(species_gene_df$Gene) > 35 | n_distinct(species_gene_df$Species) 
 species_gene_grid <- ggplot(species_gene_df, aes(x = Gene, y = Species, fill = presence_or_absence)) +
   geom_tile(color = "black", lwd = 0.5, linetype = 1) +
   scale_alpha_identity() +
-  scale_fill_manual(values = c("white", "royalblue")) +
+  scale_fill_manual(values = c("Absence" = "white", "Presence" = "royalblue")) +
   coord_fixed() +
   theme_minimal() +
   labs(title = "Protein presence in database") +

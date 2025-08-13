@@ -1,4 +1,6 @@
 Repository,Count
 RefSeq,39
-UniProtKB/TrEMBL,20
+UniProtKB/TrEMBL;Ensembl,13
+UniProtKB/TrEMBL;Ensembl;RefSeq,4
+UniProtKB/TrEMBL;EMBL,3
 UniProtKB/Swiss-Prot,1

@@ -1,31 +1,31 @@
-## METADATA for the database /Users/user1/databases/proboscidea_enamelome/proboscidea_enamelome_database.fasta
+## METADATA for the database /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/proboscidea_enamelome/proboscidea_enamelome_database.fasta
 TaxID: 9779
-Gene list: /Users/user1/databases/gene_list/enamelome.txt
-25/09/2024 - 15:48:00
-
-# DISCLAIMER
-Information present in metadata files can be underestimated due to UniParc's non-redundant architecture. Evolutionarily conserved proteins will appear only once in UniParc, which biases the number of species recovered. This is also the case for two proteins present in different repositories, as the metadata information will be merged in one UniParc record. That is why we recommend the user to take the metadata information as the minimum knowledge of the database.
+Gene list: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/documentation/example/enamelome.txt
+13/08/2025 - 12:17:04
 
 # WARNINGS
 1 genes not found
+
+# DISCLAIMER
+Each record can be associated with multiple repositories and/or species. As a result, the total number of repositories or species may exceed the number of records, and should not be interpreted as a one-to-one correspondence
 
 # Stats about the protein records
 records: 60
 records_with_gene: 60/60
 records_with_taxname: 60/60
 records_with_taxid: 60/60
-all_records_path: /Users/user1/databases/proboscidea_enamelome/metadata/records_info.csv
+all_records_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/proboscidea_enamelome/metadata/records_info.csv
 
 # Stats about the employed repositories
-repositories_employed: 3
-repositories_employed_path: /Users/user1/databases/proboscidea_enamelome/metadata/repositories_employed.csv
+repositories_employed: 5
+repositories_employed_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/proboscidea_enamelome/metadata/repositories_employed.csv
 
 # Stats about the genes found
 genes_retrieved: 14/15
-genes_retrieved_path: /Users/user1/databases/proboscidea_enamelome/metadata/genes_retrieved.csv
-genes_not_retrieved_path: /Users/user1/databases/proboscidea_enamelome/metadata/genes_NOT_retrieved.txt
+genes_retrieved_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/proboscidea_enamelome/metadata/genes_retrieved.csv
+genes_not_retrieved_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/proboscidea_enamelome/metadata/genes_NOT_retrieved.txt
 
 # Stats about the species in the database
 species_retrieved: 4
-species_retrieved_path: /Users/user1/databases/proboscidea_enamelome/metadata/species_retrieved.csv
-species_and_genes_path: /Users/user1/databases/proboscidea_enamelome/metadata/species_genes.csv
+species_retrieved_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/proboscidea_enamelome/metadata/species_retrieved.csv
+species_and_genes_path: /Users/guillermocarrillomartin/IBE_TMB/proteoparc_project/proteoparc/proboscidea_enamelome/metadata/species_genes.csv

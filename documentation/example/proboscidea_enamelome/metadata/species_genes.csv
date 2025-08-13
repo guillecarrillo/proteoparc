@@ -1,5 +1,6 @@
 Species,Gene,Count
 Elephas maximus,AMELX,1
+Elephas maximus,AMELY,1
 Elephas maximus,ENAM,1
 Elephas maximus indicus,ALB,2
 Elephas maximus indicus,COL17A1,2
@@ -18,10 +19,10 @@ Loxodonta africana,AMELX,6
 Loxodonta africana,ODAM,5
 Loxodonta africana,AMTN,4
 Loxodonta africana,COL17A1,4
+Loxodonta africana,COL1A1,4
 Loxodonta africana,COL2A1,4
 Loxodonta africana,TUFT1,4
 Loxodonta africana,AMBN,3
-Loxodonta africana,COL1A1,3
 Loxodonta africana,ENAM,2
 Loxodonta africana,SERPINC1,2
 Loxodonta africana,ALB,1

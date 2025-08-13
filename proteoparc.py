@@ -11,18 +11,18 @@ __email__ = "guillermo.carrillo@upf.edu"
 
 """
 This software concatenates some scripts to create a reference protein multi-fasta 
-database designed to be used in LC-MS/MS protein identification. The performance 
-of this pipeline can be split into three different steps:
+database designed to be used in LC-MS/MS protein identification or ZooMS marker 
+annotation. The performance of this pipeline can be split into three different steps:
 
-    1. Download. Creates a multi-fasta database file with the proteins 
+    1. Download. Generates a multi-fasta database file with the proteins 
     that fulfil the search requirements.
 
-    2. Post-processing. Does optional modifications to the multi-fasta 
+    2. Processing. Performs optional modifications to the multi-fasta 
     database: 
      - Remove redundant records with exact or substring sequences.
      - Align each protein record by the gene name.
 
-    3. Metadata. Generates some CSV tables and files with metadata information 
+    3. Metadata. Generates some CSV tables, files and plots with metadata information 
     about the database, like the number of species retrieved or the genes not found 
     during the search.
 """
@@ -30,7 +30,7 @@ of this pipeline can be split into three different steps:
 def main():
 
     # Parse the input variables from the terminal
-    RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, do_remove_redundancy, do_align_database = parser()
+    RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, do_remove_redundancy, do_align_database, do_ignore_json = parser()
     script_directory_path = f"{os.path.dirname(__file__)}/scripts"
 
     # Interrupt the execution if the user is not connected to internet
@@ -51,15 +51,15 @@ def main():
         print("ERROR: NO PROTEINS FOUND")
         exit(0)
 
-    # POST-PROCESSING STEP
+    # PROCESSING STEP
     if do_remove_redundancy:
         remove_redundancy(RESULTS_FOLDER, DATABASE_NAME, script_directory_path)
     if do_align_database:
         align_database_per_gene(RESULTS_FOLDER, DATABASE_NAME, script_directory_path)
 
     # METADATA STEP
-    produce_metadata(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, script_directory_path)
-    plot_metadata(RESULTS_FOLDER, script_directory_path)
+    produce_metadata(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, do_ignore_json, script_directory_path)
+    plot_metadata(RESULTS_FOLDER, GENE_LIST, script_directory_path)
 
 def parser():
     """
@@ -75,6 +75,8 @@ def parser():
       'remove redundancy' process happens.
     - do_align_database (Boolean); A boolean indicator to indicate if the 
       'align database' process happens.
+    - do_ignore_json (Boolean); A boolean indicator to indicate if the
+      'ignore JSON files' process happens.
     """
 
     # Setting up the parser
@@ -83,8 +85,9 @@ def parser():
     parser.add_argument("--output-path", dest="output_path", type=str, help="The path to write the result folder (default: working directory)", required=False, default=["."], nargs=1)
     parser.add_argument("--tax-id", "-t", dest="taxid", type=int, help="The TaxID number employed to construct the multi-fasta database", required=True, nargs=1)
     parser.add_argument("--genes", "-g", dest="gene_list", type=str, help="The path to the list of genes (not mandatory)", required=False, nargs=1)
-    parser.add_argument("--remove-redundancy", dest="remove_redundancy", action=argparse.BooleanOptionalAction, help="Specify if the redundant records are removed", default=True, required=False)
-    parser.add_argument("--align-database", dest="align_database", action=argparse.BooleanOptionalAction, help="Specify if the database is also aligned per protein", default=True, required=False)
+    parser.add_argument("--remove-redundancy", dest="remove_redundancy", action=argparse.BooleanOptionalAction, help="Specify if the redundant records are removed (default: True; --remove-redundancy)", default=True, required=False)
+    parser.add_argument("--align-database", dest="align_database", action=argparse.BooleanOptionalAction, help="Specify if the database is also aligned per protein (default: True; --align-database)", default=True, required=False)
+    parser.add_argument("--ignore-json", dest="ignore_json", action=argparse.BooleanOptionalAction, help="Ignore JSON files containing extra metadata per each record (default: False; --no-ignore-json)", default=False, required=False)
 
     # Recovering the arguments 
     args = parser.parse_args()
@@ -98,13 +101,14 @@ def parser():
     TAX_ID = args.taxid[0]
     if args.gene_list:
         GENE_LIST = str(args.gene_list[0])
-    else:
+    elif not args.gene_list:
         GENE_LIST = None
 
     do_remove_redundancy = args.remove_redundancy
     do_align_database = args.align_database
+    do_ignore_json = args.ignore_json
 
-    return RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, do_remove_redundancy, do_align_database
+    return RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, do_remove_redundancy, do_align_database, do_ignore_json
 
 def internet_on():
     """
@@ -128,7 +132,10 @@ def download_proteins(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, script_d
     UniProt, NCBI, and other repositories. The search is focused on a specific taxonomic 
     group by a NCBI TaxID and can be restricted to a certain group of genes, indicated by
     a text file. Other specificities, such as the description of the protein header, can 
-    be seen in the README.md file
+    be seen in the README.md file. Additionally, 3 JSON files are ouput to store the extra 
+    metadata of the repositories, species, and TaxID of each record in the database. The 
+    objective of these files is to store the cases of records associated with more than one
+    repository, species, or TaxID.
     
     #INPUT
     - RESULTS_FOLDER (String); The folder's absolute path to write the output.
@@ -136,9 +143,13 @@ def download_proteins(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, script_d
     - TAX_ID (Integer); The TaxID number employed to construct the multi-fasta database.
     - GENE_LIST (String); The path to the gene list employed to construct the multi-fasta.
       database. If no gene list is specified, the variable is assigned as None.
+    - script_directory_path (String); The absolute path to the scripts folder.
     #WRITE OUTPUT
     - {DATABASE_NAME}.fasta; A multi-fasta protein database constructed following the
       search criteria for certain species and genes.
+    - .repos_metadata.json; A JSON file containing the metadata of the repositories used
+    - .species_metadata.json; A JSON file containing the metadata of the species used
+    - .taxid_metadata.json; A JSON file containing the metadata of the TaxID used
     """
 
     # Download the proteins
@@ -165,6 +176,7 @@ def remove_redundancy(RESULTS_FOLDER, DATABASE_NAME, script_directory_path):
     #INPUT
     - RESULTS_FOLDER (String); The folder's absolute path to write the output.
     - DATABASE_NAME (String); The name of the database file and folder.
+    - script_directory_path (String); The absolute path to the scripts folder.
     #WRITE OUTPUT
     - fasta_remove_redundancy/unfiltered_database.fasta; The unfiltered version 
       of the multi-fasta protein database. 
@@ -188,12 +200,13 @@ def align_database_per_gene(RESULTS_FOLDER, DATABASE_NAME, script_directory_path
     """
     This function generates an aligned multi-fasta file per each different 
     gene present in a multi-fasta. To do so, the header format should indicate 
-    the gene name before the string "GN=". 'mafft' v7.525 has been to choosen 
-    tool to build each alignment.
+    the gene name before the string "GN=". mafft v7.525 has been to choosen to build
+    each alignment, under the --auto parameter.
 
     #INPUT
     - RESULTS_FOLDER (String); The folder's absolute path to write the output.
     - DATABASE_NAME (String); The name of the database file and folder.
+    - script_directory_path (String); The absolute path to the scripts folder.
     #WRITE OUTPUT
     - aligned_database/{gene_name}_aligned.fasta; An aligned multi-fasta file in 
       mafft format per each gene present in the protein database.
@@ -206,11 +219,15 @@ def align_database_per_gene(RESULTS_FOLDER, DATABASE_NAME, script_directory_path
                --output-folder-name alignment_per_gene"
     subprocess.run(align_database_command_line, shell=True)
 
-def produce_metadata(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, script_directory_path):
+def produce_metadata(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, do_ignore_json, script_directory_path):
     """
     This function generates metadata files with information about a multi-fasta protein 
     database outputed from the uniparc_download.py script. The software only generates 
-    the "genes_NOT_retrieved.csv" file if a gene list has been specified. 
+    the "genes_NOT_retrieved.csv" file if a gene list has been specified. It also might combine
+    the information present within the database with the information present in the JSON files
+    generated during the download step (if do_ignore_json = False). These JSON files contain the 
+    repositories, species, and TaxID metadata of each record in the database, as there might be
+    more than one value per record in these features.
 
     #INPUT
     - RESULTS_FOLDER (String); The folder's absolute path to write the output.
@@ -218,6 +235,9 @@ def produce_metadata(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, script_di
     - TAX_ID (Integer); The TaxID number employed to construct the multi-fasta database.
     - GENE_LIST (String); The path to the gene list employed to construct the multi-fasta.
       database. If no gene list is specified, the variable is assigned as None.
+    - do_ignore_json (Boolean); A boolean indicator to indicate if the
+      'ignore JSON files' process happens.
+    - script_directory_path (String); The absolute path to the scripts folder.
     #WRITE OUTPUT
     - metadata/summary.txt; A text file with a summary of all the metadata information 
       retrieved from the multi-fasta database. It also shows the paths to all the other files.
@@ -236,6 +256,11 @@ def produce_metadata(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, script_di
       species.
     """
 
+    if do_ignore_json:
+        ignore_json = "--ignore-json"
+    elif not do_ignore_json:
+        ignore_json = "--no-ignore-json"
+
     # Generate metadata files, whether there is or not a gene list
     if GENE_LIST:
         metadata_command_line = f"python3 -u {script_directory_path}/metadata_proteoparc.py \
@@ -243,7 +268,8 @@ def produce_metadata(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, script_di
                 --output-path {RESULTS_FOLDER} \
                 --output-folder-name metadata \
                 --genes {GENE_LIST} \
-                --tax-id {TAX_ID}"
+                --tax-id {TAX_ID} \
+                {ignore_json}"
         subprocess.run(metadata_command_line, shell=True)
 
     elif not GENE_LIST:
@@ -251,16 +277,20 @@ def produce_metadata(RESULTS_FOLDER, DATABASE_NAME, TAX_ID, GENE_LIST, script_di
                 --input-path {RESULTS_FOLDER}/{DATABASE_NAME} \
                 --output-path {RESULTS_FOLDER} \
                 --output-folder-name metadata \
-                --tax-id {TAX_ID}"
+                --tax-id {TAX_ID} \
+                {ignore_json}"
         subprocess.run(metadata_command_line, shell=True)
 
-def plot_metadata(RESULTS_FOLDER, script_directory_path):
+def plot_metadata(RESULTS_FOLDER, GENE_LIST, script_directory_path):
     """
     This function plots the frequency and presence of the species and genes
     retrieved in the multi-fasta database.
 
     #INPUT
     - RESULTS_FOLDER (String); The folder's absolute path to write the output.
+    - GENE_LIST (String); The path to the gene list employed to construct the multi-fasta.
+      database. If no gene list is specified, the variable is assigned as None.
+    - script_directory_path (String); The absolute path to the scripts folder.
     #WRITE OUTPUT
     - metadata/plots/species_per_gene_barplot.jpg; A barplot representing the
       number of diferent protein records per each specie and gene name.
@@ -268,17 +298,22 @@ def plot_metadata(RESULTS_FOLDER, script_directory_path):
       presence or absence of each gene name per species.
     """
 
-    # Build barplot
+    # Generate barplot
     barplot_command_line = f"Rscript {script_directory_path}/proteoparc_barplot.R \
               {RESULTS_FOLDER}/metadata/species_genes.csv"
     subprocess.run(barplot_command_line, shell=True)
     
-    # Build grid
+    # Generate grid
+    if GENE_LIST:
+        gene_list_arg = f"{GENE_LIST}"
+    else:
+        gene_list_arg = ""
+ 
     grid_command_line = f"Rscript {script_directory_path}/proteoparc_grid.R \
-              {RESULTS_FOLDER}/metadata/species_genes.csv"
+              {RESULTS_FOLDER}/metadata/species_genes.csv {gene_list_arg}"
     subprocess.run(grid_command_line, shell=True)
     
-    # Generate plots folder
+    # Store the plots in a folder
     if not os.path.exists(f"{RESULTS_FOLDER}/metadata/plots"):
         os.mkdir(f"{RESULTS_FOLDER}/metadata/plots")
 
